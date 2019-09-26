@@ -1,36 +1,28 @@
 module.exports = function(sequelize, DataTypes) {
   // Creates a "reviews" model that matches up with DB
-  var Business = sequelize.define("business", {
-    businessId: DataTypes.STRING,
+  var User = sequelize.define("User", {
+    userId: DataTypes.STRING,
     name: DataTypes.STRING,
-    address: DataTypes.STRING,
-    city: DataTypes.STRING,
-    state: DataTypes.STRING,
-    postalCode: DataTypes.STRING,
-    latitude: DataTypes.STRING,
-    longitude: DataTypes.STRING,
-    stars: DataTypes.INTEGER,
-    reviewCount: DataTypes.INTEGER,
-    attributes: {
-      RestaurantsTakeOut: DataTypes.STRING,
-      BusinessParking: {
-        garage: DataTypes.BOOLEAN,
-        street: DataTypes.BOOLEAN,
-        validated: DataTypes.BOOLEAN,
-        lot: DataTypes.BOOLEAN,
-        valet: DataTypes.BOOLEAN
-      }
-    },
-    categories: [DataTypes.STRING],
-    hours: {
-      Monday: DataTypes.STRING,
-      Tuesday: DataTypes.STRING,
-      Wednesday: DataTypes.STRING,
-      Thursday: DataTypes.STRING,
-      Friday: DataTypes.STRING,
-      Saturday: DataTypes.STRING,
-      Sunday: DataTypes.STRING
-    }
+    reviewCount: DataTypes.STRING,
+    yelpingSince: DataTypes.STRING,
+    friends: [DataTypes.STRING],
+    useful: DataTypes.INTEGER,
+    funny: DataTypes.INTEGER,
+    cool: DataTypes.INTEGER,
+    fans: DataTypes.INTEGER,
+    elite: [DataTypes.INTEGER],
+    averageStars: DataTypes.INTEGER,
+    complimentHot: DataTypes.STRING,
+    complimentMore: DataTypes.STRING,
+    complimentProfile: DataTypes.STRING,
+    complimentCute: DataTypes.STRING,
+    complimentList: DataTypes.STRING,
+    complimentNote: DataTypes.STRING,
+    complimentPlain: DataTypes.STRING,
+    complimentCool: DataTypes.STRING,
+    complimentFunny: DataTypes.STRING,
+    complimentWriter: DataTypes.STRING,
+    complimentPhotos: DataTypes.STRING
   });
 
   User.associate = function(models) {
@@ -39,5 +31,5 @@ module.exports = function(sequelize, DataTypes) {
     });
   };
 
-  return Business;
+  return User;
 };
