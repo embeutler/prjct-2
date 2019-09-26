@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "Camera13!",
-    "database": "yelp_reviews",
+    "database": "yelpDB",
     "host": "localhost",
     "dialect": "mysql"
   },
