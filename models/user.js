@@ -33,8 +33,8 @@ module.exports = function(sequelize, DataTypes) {
     }
   });
 
-  Business.associate = function(models) {
-    Business.hasMany(models.Review, {
+  User.associate = function(models) {
+    User.belongsTo(models.Review, {
       onDelete: "cascade"
     });
   };
