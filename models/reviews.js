@@ -12,5 +12,11 @@ module.exports = function(sequelize, DataTypes) {
     cool: DataTypes.INTEGER
   });
 
+  Reviews.associate = function(models) {
+    Reviews.belongsTo(models.Business, {
+      onDelete: "cascade"
+    });
+  };
+
   return Reviews;
 };
