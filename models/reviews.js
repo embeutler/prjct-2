@@ -1,6 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
   // Creates a "reviews" model that matches up with DB
-  var Reviews = sequelize.define("reviews", {
+  var Reviews = sequelize.define("Reviews", {
     reviewId: DataTypes.STRING,
     userId: DataTypes.STRING,
     businessId: DataTypes.STRING,
