@@ -1,62 +1,76 @@
 module.exports = function(sequelize, DataTypes) {
-  var Review = sequelize.define("Review", {
-    review_id: {
+  var Business = sequelize.define("Business", {
+    businessID: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
         len: [1, 30]
       }
     },
-    user_id: {
+    name: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
         len: [1, 30]
       }
     },
-    business_id: {
+    address: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
         len: [1, 30]
       }
     },
-    stars: {
+    city: {
       type: DataTypes.INTEGER,
       allowNull: false,
       validate: {
         len: [1, 30]
       }
     },
-    date: {
+    state: {
       type: DataTypes.DATE,
       allowNull: false,
       validate: {
         len: [1]
       }
     },
-    review: {
+    postalCode: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
         len: [1]
       }
     },
-    useful: {
+    latitude: {
       type: DataTypes.INTEGER,
       allowNull: true,
       validate: {
         len: [1]
       }
     },
-    funny: {
+    longitude: {
       type: DataTypes.INTEGER,
       allowNull: true,
       validate: {
         len: [1]
       }
     },
-    cool: {
+    stars: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      validate: {
+        len: [1]
+      }
+    },
+    reviewCount: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      validate: {
+        len: [1]
+      }
+    },
+    isOpen: {
       type: DataTypes.INTEGER,
       allowNull: true,
       validate: {
