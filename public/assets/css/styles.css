@@ -67,7 +67,7 @@ h1:nth-child(3) {
 }
 
 h1:nth-child(4) {
-  animation: var(--flip-1);
+  animation: var(--flip-2);
 }
 
 h1:nth-child(5) {
