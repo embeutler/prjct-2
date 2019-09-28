@@ -1,5 +1,5 @@
-module.exports = function(sequelize, DataTypes) {
-  // Creates a "reviews" model that matches up with DB
+/*module.exports = function(sequelize, DataTypes) {
+ // Creates a "reviews" model that matches up with DB
   var User = sequelize.define("User", {
     userId: DataTypes.STRING,
     name: DataTypes.STRING,
@@ -33,3 +33,4 @@ module.exports = function(sequelize, DataTypes) {
 
   return User;
 };
+*/
