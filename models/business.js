@@ -1,6 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
-  // Creates a "reviews" model that matches up with DB
-  var Business = sequelize.define("Business", {
+  // Creates a "Businesses" model that matches up with DB
+  var Businesses = sequelize.define("Businesses", {
     businessId: DataTypes.STRING,
     name: DataTypes.STRING,
     address: DataTypes.STRING,
@@ -13,11 +13,11 @@ module.exports = function(sequelize, DataTypes) {
     reviewCount: DataTypes.INTEGER
   });
 
-  Business.associate = function(models) {
-    Business.hasMany(models.Review, {
+  Businesses.associate = function(models) {
+    Businesses.hasMany(models.Reviews, {
       onDelete: "cascade"
     });
   };
 
-  return Business;
+  return Businesses;
 };

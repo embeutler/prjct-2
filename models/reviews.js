@@ -13,7 +13,7 @@ module.exports = function(sequelize, DataTypes) {
   });
 
   Reviews.associate = function(models) {
-    Reviews.belongsTo(models.Business, {
+    Reviews.belongsTo(models.Businesses, {
       onDelete: "cascade"
     });
   };
