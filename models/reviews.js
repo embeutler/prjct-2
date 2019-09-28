@@ -1,6 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
   // Creates a "reviews" model that matches up with DB
-  var Reviews = sequelize.define("reviews", {
+  var Reviews = sequelize.define("Reviews", {
     reviewId: DataTypes.STRING,
     userId: DataTypes.STRING,
     businessId: DataTypes.STRING,
@@ -12,10 +12,14 @@ module.exports = function(sequelize, DataTypes) {
     cool: DataTypes.INTEGER
   });
 
-  Reviews.belongsTo(Businesses, {
-    foreignKey: "businessId",
-    targetKey: "businessId"
-  });
+  // Business.hasMany(Reviews, { foreignKey: "businessId" });
+  // Reviews.belongsTo(Businesses, { foreignKey: "businessId" });
+  // Reviews.find({ where: { }, include: [User]})
+
+  // Reviews.belongsTo(Businesses, {
+  //   foreignKey: "businessId",
+  //   targetKey: "businessId"
+  // });
 
   // Reviews.associate = function(models) {
   //   Reviews.belongsTo(models.Business, {
