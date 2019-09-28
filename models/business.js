@@ -1,3 +1,5 @@
+var Businesses;
+
 module.exports = function(sequelize, DataTypes) {
   // Creates a "Businesses" model that matches up with DB
   var Businesses = sequelize.define("Businesses", {
