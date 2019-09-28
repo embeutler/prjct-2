@@ -12,20 +12,5 @@ module.exports = function(sequelize, DataTypes) {
     cool: DataTypes.INTEGER
   });
 
-  // Business.hasMany(Reviews, { foreignKey: "businessId" });
-  // Reviews.belongsTo(Businesses, { foreignKey: "businessId" });
-  // Reviews.find({ where: { }, include: [User]})
-
-  // Reviews.belongsTo(Businesses, {
-  //   foreignKey: "businessId",
-  //   targetKey: "businessId"
-  // });
-
-  // Reviews.associate = function(models) {
-  //   Reviews.belongsTo(models.Business, {
-  //     onDelete: "cascade"
-  //   });
-  // };
-
   return Reviews;
 };

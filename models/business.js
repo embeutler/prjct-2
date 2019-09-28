@@ -12,12 +12,21 @@ module.exports = function(sequelize, DataTypes) {
     stars: DataTypes.FLOAT,
     reviewCount: DataTypes.INTEGER
   });
+  // Businesses.associate = function(models) {
+  //   Businesses.hasMany(models.Reviews, {
+  //     foreignKey: "businessId",
+  //     targetKey: "businessId"
+  //   });
+  // };
 
-  // Businesses.hasMany(Reviews, {
-  //   foreignKey: "businessId",
-  //   targetKey: "businessId"
-  // });
+  /*Businesses.hasMany(Reviews);
 
+  Businesses.associate = function(models) {
+    Businesses.hasMany(models.Reviews, {
+      onDelete: "cascade"
+    });
+  };
+*/
   return Businesses;
 };
 
