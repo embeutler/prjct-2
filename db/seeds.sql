@@ -2,8 +2,8 @@
 USE yelpDB;
 
 /* Seeds for the Businesses Table */
-INSERT INTO `
-Businesses`
+INSERT INTO 
+Businesses
 VALUES
     (1, '1SWheh84yJXfytovILXOAQ', 'Arizona Biltmore Golf Club', '2818 E Camino Acequia Drive', 'Phoenix', 'AZ', '85016', 33.5221, -112.018, 3, 5, '2019-01-01 12:00:00', '2019-01-01 12:00:00'),
     (2, 'QXAEGFB4oINsVuTFxEYKFQ', 'Emerald Chinese Restaurant', '30 Eglinton Avenue W', 'Mississauga', 'ON', 'L5R 3E7', 43.6055, -79.6523, 2.5, 128, '2019-01-01 12:00:00', '2019-01-01 12:00:00'),
@@ -24,8 +24,8 @@ s Pizza','5981 Andrews Rd','Mentor-on-the-Lake','OH','44060',41.7085,-81.3596,4,
 (20,'zSpQmEBvRe3IhTUlMSA6HQ','Totum Life Science','445 King Street W, Suite 101','Toronto','ON','M5V 1K4',43.645,-79.3958,4,23,'2019-01-01 12:00:00','2019-01-01 12:00:00');
 
 /* Seeds for the Reviews Table */
-INSERT INTO `
-reviews`
+INSERT INTO 
+reviews
 VALUES
     (1, 'Q1sbwvVQXV2734tPgoKj4Q', 'hG7b0MtEbXx5QzbzE6C_VA', 'ujmEBvifdJM6h6RLv4wQIg', '2013-05-07 04:34:36', 'Total bill for this horrible service? Over $8Gs. These crooks actually had the nerve to charge us $69 for 3 pills. I checked online the pills can be had for 19 cents EACH! Avoid Hospital ERs at all costs.', 1, 6, 1, 0, '2019-01-01 12:00:00', '2019-01-01 12:00:00'),
     (2, 'GJXCdrto3ASJOqKeVWPi6Q', 'yXQM5uF2jS6es16SJzNHfg', 'NZnhc2sEQy3RmzKTZnqtwQ', '2017-01-14 21:30:33', 'I *adore* Travis at the Hard Rock\'
