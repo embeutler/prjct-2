@@ -8,6 +8,13 @@ module.exports = function(app) {
     });
   });
 
+  app.get("/api/all", function(req, res) {
+    db.Reviews.findAll({ include: [{ model: db.Businesses }] }).then(function(
+      dbExamples
+    ) {
+      res.json(dbExamples);
+    });
+  });
   // Gets all businesses
   app.get("/api/businesses", function(req, res) {
     db.Businesses.findAll({}).then(function(dbBusinesses) {
