@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "root",
-    "password": "SantaCruz83!",
-    "database": "yelpDB",
+    "password": "password",
+    "database": "yelpdb",
     "host": "localhost",
     "dialect": "mysql"
   },
