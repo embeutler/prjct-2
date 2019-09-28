@@ -13,11 +13,16 @@ module.exports = function(sequelize, DataTypes) {
     reviewCount: DataTypes.INTEGER
   });
 
-  Businesses.associate = function(models) {
-    Businesses.hasMany(models.Reviews, {
-      onDelete: "cascade"
-    });
-  };
+  Businesses.hasMany(Reviews, {
+    foreignKey: "businessId",
+    targetKey: "businessId"
+  });
+
+  // Businesses.associate = function(models) {
+  //   Businesses.hasMany(models.Reviews, {
+  //     onDelete: "cascade"
+  //   });
+  // };
 
   return Businesses;
 };
