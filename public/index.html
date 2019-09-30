@@ -24,31 +24,26 @@
             </div>
         </div>
     </div>
+    <div class="pageHead">
+        <p>
+            <h2> Find the Worst Place to Eat in Town </h2>
+            <h5>(or stay away from)</h5>
+        </p>
+    </div>
     <div class="search-box">
-        <div id="cover">
-            <form method="get" action="">
-                <div class="tb">
-                    <div class="td"><input type="text" placeholder="Search" required></div>
-                    <div class="td" id="s-cover">
-                        <button type="submit">
-            <div id="s-circle"></div>
-            <span></span>
-          </button>
-                    </div>
-                </div>
-            </form>
-            <div id="pageHead">
-                <p>
-                    <h2> Find the Worst Place to Eat in Town </h2>
-                    <h5>(or stay away from)</h5>
-                </p>
+        <div class="wrap">
+            <div class="search">
+                <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                <button type="submit" class="searchButton">
+                 <i class="fa fa-search"></i>
+              </button>
             </div>
         </div>
+    </div>
 
-        <div class="results-container">
-            <div class=listResults>
-                {{restraunts listResults}}
-            </div>
+    <div class="results-container">
+        <div class=listResults>
+            {{restraunts listResults}}
         </div>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illum ut perferendis nam eum adipisci aut dolore debitis laborum obcaecati nobis fuga, modi natus sint nostrum necessitatibus architecto error laboriosam.</p>
@@ -90,6 +85,7 @@
           <p >Footer Content</p>
       </footer>
   </div>
+
 
 </body>
 
