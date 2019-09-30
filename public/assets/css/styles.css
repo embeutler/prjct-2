@@ -316,13 +316,6 @@ button span:after {
   clear: both;
 }
 
-footer {
-  background-color: navy;
-  height: 100px;
-  width: 100%;
-  border-top-style: solid;
-}
-
 marquee {
   font-family: "Concert One", cursive;
   line-height: 25 px;
@@ -332,5 +325,10 @@ marquee {
 
 .footer {
   margin-bottom: 0px;
-  position: -webkit-sticky;
+  position: sticky;
+  background-color: navy;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
