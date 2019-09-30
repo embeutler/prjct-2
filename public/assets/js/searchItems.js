@@ -1,64 +1,60 @@
-$(document).ready(function() {
-  //Getting references to the business name input
-  var searchInput = $("#business-name");
-  //  var businessList = $("tbody");
-  //  var businessContainer = $(".businesses-container");
+// Get references to page elements
+var $searchText = $("#search-text");
+var $submitBtn = $("#submit");
+var $exampleList = $("#example-list");
 
-  //Adding event listeners to the form
-  $(document).on("search", "#search-form", handleSearhFormSubmit);
+// The API object contains methods for each kind of request we'll make
+var API = {
+  getBusinesses: function() {
+    return $.ajax({
+      url: "api/businesses",
+      type: "GET"
+    });
+  }
+};
+// refreshExamples gets new examples from the db and repopulates the list
+var refreshBusinesses = function() {
+  API.getBusinesses().then(function(data) {
+    var $business = data.map(function(req) {
+      var $a = $("<a>")
+        .text(req.text)
+        .attr("href", "/example/" + req.id);
 
-  //Getting the initial list of businesses
-  getBusinesses();
+      var $li = $("<li>")
+        .attr({
+          class: "list-group-item",
+          "data-id": req.id
+        })
+        .append($a);
 
-  function handleSearhFormSubmit(event) {
-    event.preventDefault();
-    console.log("You are here 1!");
-    console.log(event);
-    //Dont do anything if the search field is empty
-    if (
-      !searchInput
-        .val()
-        .trim()
-        .trim()
-    ) {
-      return;
-    }
+      return $li;
+    });
+
+    $exampleList.empty();
+    $exampleList.append($business);
+  });
+};
+
+// handleFormSubmit is called whenever we submit a new example
+// Save the new example to the db and refresh the list
+var handleFormSubmit = function(event) {
+  event.preventDefault();
+  console.log($searchText);
+  var search = {
+    text: $searchText.val().trim()
+  };
+
+  if (!search.text) {
+    alert("You must enter an Search!");
+    return;
   }
 
-  //   // Functions for retrieving a business and rendering it to the page
-  //   function getBusinesses() {
-  //     $.get("/api/bussinesses", function(data) {
-  //         console.log("You are here 1!")
-  //         console.log("You are here 1!")
-  //      var rowsToAdd = [];
-  //       for (var i = 0; i < data.length; i++) {
-  //         rowsToAdd.push(createBusinessRow(data[i]));
-  //       }
-  //       renderBusinessReviews(rowsToAdd);
-  //       businessName.val("");
-  //     });
-  //   }
+  API.getBusinesses(search).then(function() {
+    refreshBusinesses();
+  });
 
-  //   Function for rendering the list of businesses to the page
-  //  function renderBusinessReviews(row) {
-  //     businessList
-  //       .children()
-  //       .not(":last")
-  //       .remove();
-  //     businessContainer.children(".alert").remove();
-  //     if (row.length) {
-  //       console.log(rows);
-  //       businessList.prepend(rows);
-  //     } else {
-  //       renderEmpty();
-  //     }
-  //   }
+  $searchText.val("");
+};
 
-  //   Function for handleing what to render when there are no businesses
-  //  function renderEmpty() {
-  //     var alertDiv = $("<div>");
-  //     alertDiv.addClass("alert alert-danger");
-  //     alertDiv.text("You must Search for a Business");
-  //     businessContainer.append(alertDiv)
-  //   }
-});
+// Add event listeners to the submit and delete buttons
+$submitBtn.on("click", handleFormSubmit);
