@@ -326,11 +326,9 @@ marquee {
 
 .footer {
   margin-bottom: 0px;
-  position: sticky;
   background-color: rgba(29, 29, 31, 0.959);
   height: 100px;
   width: 100%;
-  position: fixed;
   bottom: 0;
 }
 
