@@ -1,7 +1,11 @@
 {
   "development": {
     "username": "root",
+<<<<<<< HEAD
     "password": "password",
+=======
+    "password": "",
+>>>>>>> 277b6b616874476f0a1cb7aee9d80d21d7ff7121
     "database": "yelpdb",
     "host": "localhost",
     "dialect": "mysql"
