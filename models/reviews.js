@@ -21,7 +21,14 @@ module.exports = function(sequelize, DataTypes) {
     stars: DataTypes.INTEGER,
     useful: DataTypes.INTEGER,
     funny: DataTypes.INTEGER,
-    cool: DataTypes.INTEGER
+    cool: DataTypes.INTEGER,
+    businessId: {
+      type: DataTypes.STRING,
+      references: {
+        model: "Businesses",
+        key: "businessId"
+      }
+    }
   });
   Reviews.associate = function(models) {
     Reviews.belongsTo(models.Businesses, {
