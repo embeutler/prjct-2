@@ -9,12 +9,18 @@ module.exports = function(app) {
   });
 
   app.get("/api/all", function(req, res) {
-    db.Reviews.findAll({ include: [{ model: db.Businesses }] }).then(function(
+    db.Businesses.findAll({ include: [{ model: db.Reviews }] }).then(function(
       dbExamples
     ) {
       res.json(dbExamples);
     });
   });
+  // app.get("/api/authors", function (req, res) {
+  //   // 1. Add a join to include all of each Author's Posts
+  //   db.Author.findAll({ include: [db.Post] }).then(function (dbAuthor) {
+  //     res.json(dbAuthor);
+  //   });
+  // });
   // Gets all businesses
   app.get("/api/businesses", function(req, res) {
     db.Businesses.findAll({}).then(function(dbBusinesses) {
