@@ -318,17 +318,54 @@ button span:after {
 
 marquee {
   font-family: "Concert One", cursive;
+  font-size: 18px;
   line-height: 25 px;
-  color: rgb(93, 93, 93);
-  background-color: rgb(135, 233, 240);
+  color: rgb(119, 116, 116);
+  background-color: navy;
 }
 
 .footer {
   margin-bottom: 0px;
   position: sticky;
-  background-color: navy;
+  background-color: rgba(29, 29, 31, 0.959);
   height: 100px;
   width: 100%;
   position: fixed;
   bottom: 0;
+}
+
+.footer .footer-content {
+}
+
+/* .footer .footer-content .footer-section {
+} */
+
+.footer .footer-bottom {
+  background: rgb(102, 100, 100);
+  color: pink;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  height: 30px;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(126, 207, 245);
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: lightblue;
 }
