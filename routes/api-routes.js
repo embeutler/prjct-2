@@ -9,7 +9,7 @@ module.exports = function(app) {
   });
 
   app.get("/api/all", function(req, res) {
-    db.Reviews.findAll({ include: [{ model: db.Businesses }] }).then(function(
+    db.Businesses.findAll({ include: [{ model: db.Reviews }] }).then(function(
       dbExamples
     ) {
       res.json(dbExamples);
