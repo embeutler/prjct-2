@@ -1,129 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
 
     <title>PLEY</title>
-</head>
+  </head>
 
-<body>
+  <body>
+
+    <!----- Banner and Title ----->
     <div class="master-head">
-        <div class="hero-bkg-animated">
-            <div class="loading">
-                <header>
-                    <h1>*</h1>
-                    <h1>p</h1>
-                    <h1>l</h1>
-                    <h1>e</h1>
-                    <h1>y</h1>
-                </header>
-            </div>
+      <div class="hero-bkg-animated">
+        <div class="loading">
+          <header>
+            <h1>*</h1>
+            <h1>P</h1>
+            <h1>L</h1>
+            <h1>E</h1>
+            <h1>Y</h1>
+          </header>
         </div>
+      </div>
     </div>
     <br>
-    <div class="head-container">
-        <div class="wrap">
-            <div class="pageHead">
-                <header>
-                    <h2> Search for some of the worst food in Sacramento </h2>
-                </header>
-            </div>
-        </div>
-    </div>
+
+<!------------ QUOTE -------->
+    <marquee>
+            &#129326
+            “One cannot think well, love well, sleep well, if one has not dined well.”
+            ― Virginia Woolf 
+            &#129319
+            &nbsp&nbsp
+            “If more of us valued food and cheer and song above hoarded gold, it would be a merrier world.”
+            ― J.R.R. Tolkien
+            &#129314
+            &nbsp&nbsp
+            “After a good dinner one can forgive anybody, even one's own relations.”
+            ― Oscar Wilde
+            &#128567
+            &nbsp&nbsp
+            “There is no love sincerer than the love of food.”
+            ― George Bernard Shaw
+        </marquee>
     <br>
+
+    <!----- Short Description ----->
+    <h2 class="description">Search for some of the worst food in Sacramento</h2>
+
+    <!------- Search Box ----->
     <div class="search-box">
-        <div class="wrap1">
-            <div class="search">
-                <input type="text" class="searchTerm" placeholder="What are you looking for?">
-                <button type="submit" class="searchButton">
-                 <i class="fa fa-search"></i>
-              </button>
-            </div>
+        <div class="search">
+            <form>
+                <input   type="text"     class="searchTerm"  placeholder="What are you looking for?">
+                <button type="submit" class="searchButton"> <i class="fa fa-search"></i> </button>
+            </form>
         </div>
     </div>
+
     <br>
+    
+    <!------ Search Result  ------>
     <div class="results-container">
-        <div class="wrap2">
-            <div class="listResults">
-                {{restraunts listResults}}
-            </div>
+        <div class="listResults">
+          {{restraunts listResults}}
         </div>
     </div>
 
-    <div class="footer ">
-        <div>
-            <marquee>“One cannot think well, love well, sleep well, if one has not dined well.” ― Virginia Woolf &nbsp&nbsp “If more of us valued food and cheer and song above hoarded gold, it would be a merrier world.” ― J.R.R. Tolkien &nbsp&nbsp “After a good
-                dinner one can forgive anybody, even one's own relations.” ― Oscar Wilde &nbsp&nbsp “There is no love sincerer than the love of food.” ― George Bernard Shaw
-            </marquee>
-        </div>
-
-<<<<<<< HEAD
-
+    <!--------------------- Start Footer ------------------------------->
     <div class="footer ">
 
-            <div class="footer-content">
-                    <div class="footer-section about">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium quis, libero non deserunt at facere quo laboriosam? Ducimus aliquam quo cumque, amet voluptate necessitatibus dolores natus consectetur optio eius tempore.</p>
-                    </div>
-                    <div class="footer-section links">
-                            <ul>
-                                    <li>Email</li>
-                                    <li>Address</li>
-                                    <li>Phone</li>
-                                </ul>  
-                    </div>
-                    <div class="footer-section contact-form">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium quis, libero non deserunt at facere quo laboriosam? Ducimus aliquam quo cumque, amet voluptate necessitatibus dolores natus consectetur optio eius tempore.</p>
-                    </div>
+        <!------------- Three column Info Footer -------------->
+      <div class="footer-content">
+
+        <!------- First Column ------>
+            <div class="footer-section about">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusantium quis, libero non deserunt at facere quo laboriosam?
+                Ducimus aliquam quo cumque, amet voluptate necessitatibus dolores
+                natus consectetur optio eius tempore.
+            </p>
             </div>
 
-            <!-- <marquee>
-                    &#129326
-                    “One cannot think well, love well, sleep well, if one has not dined well.”
-                    ― Virginia Woolf 
-                    &#129319
-                    &nbsp&nbsp
-                    “If more of us valued food and cheer and song above hoarded gold, it would be a merrier world.”
-                    ― J.R.R. Tolkien
-                    &#129314
-                    &nbsp&nbsp
-                    “After a good dinner one can forgive anybody, even one's own relations.”
-                    ― Oscar Wilde
-                    &#128567
-                    &nbsp&nbsp
-                    “There is no love sincerer than the love of food.”
-                    ― George Bernard Shaw
-                </marquee> -->
+            <!------ Second Column ---->
+            <div class="footer-section links">
+            <ul>
+                <li>Email</li>
+                <li>Address</li>
+                <li>Phone</li>
+            </ul>
+            </div>
 
-        
-            
-            <div class="footer-bottom">
-                &copy; pley.com | Designed by 
-                &nbsp&nbsp<a href="https://github.com/BRBright" target="_blank">Billy Bright</a>
-                &nbsp&nbsp <a href="https://github.com/travrodowick" target="_blank">Travis Rodowick</a>
-                &nbsp&nbsp <a href="https://github.com/CarlLm1" target="_blank">Carl Medina</a>
-                &nbsp&nbsp <a href="https://github.com/embeutler" target="_blank">Emily Beutler</a>
-                &nbsp&nbsp <a href="https://github.com/melanie0530" target="_blank">Melanie Mok</a>
-=======
-        <div class="footer-content">
-            <div class="footer-section about"></div>
-            <div class="footer-section links"></div>
-            <div class="footer-section contact-form"></div>
+            <!------ Third Column ------>
+            <div class="footer-section contact-form">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusantium quis, libero non deserunt at facere quo laboriosam?
+                Ducimus aliquam quo cumque, amet voluptate necessitatibus dolores
+                natus consectetur optio eius tempore.
+            </p>
+            </div>
         </div>
+        <!----// End Three Columns Footer ------->
 
+        <!--------------- Copyright --------------------------->
         <div class="footer-bottom">
-            &copy; pley.com | Designed by &nbsp&nbsp
-            <a href="https://github.com/BRBright" target="_blank">Billy Bright</a> &nbsp&nbsp <a href="https://github.com/travrodowick" target="_blank">Travis Rodowick</a> &nbsp&nbsp <a href="https://github.com/CarlLm1" target="_blank">Carl Medina</a>            &nbsp&nbsp <a href="https://github.com/embeutler" target="_blank">Emily Beutler</a> &nbsp&nbsp <a href="https://github.com/melanie0530" target="_blank">Melanie Mok</a>
->>>>>>> master
-
+            &copy; pley.com | Designed by &nbsp&nbsp<a
+            href="https://github.com/BRBright"
+            target="_blank"
+            >Billy Bright</a
+            >
+            &nbsp&nbsp
+            <a href="https://github.com/travrodowick" target="_blank"
+            >Travis Rodowick</a
+            >
+            &nbsp&nbsp
+            <a href="https://github.com/CarlLm1" target="_blank">Carl Medina</a>
+            &nbsp&nbsp
+            <a href="https://github.com/embeutler" target="_blank">Emily Beutler</a>
+            &nbsp&nbsp
+            <a href="https://github.com/melanie0530" target="_blank">Melanie Mok</a>
         </div>
+        <!-- // End Copyrights -->
     </div>
-
-
-</body>
-
+    <!-- // End foolter -->
+  </body>
 </html>
