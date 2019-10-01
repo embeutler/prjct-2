@@ -9,6 +9,13 @@ module.exports = function(sequelize, DataTypes) {
       unique: true
     },
     userId: DataTypes.STRING,
+    businessId: {
+      type: DataTypes.STRING,
+      references: {
+        model: "Businesses",
+        key: "businessId"
+      }
+    },
     date: DataTypes.STRING,
     text: DataTypes.STRING,
     stars: DataTypes.INTEGER,

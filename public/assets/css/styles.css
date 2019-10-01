@@ -319,26 +319,40 @@ button span:after {
 marquee {
   font-family: "Concert One", cursive;
   font-size: 18px;
-  line-height: 25 px;
-  color: rgb(119, 116, 116);
-  background-color: navy;
+  line-height: 30 px;
+  color: white;
+  background-color: rgb(79, 46, 224);
 }
 
 .footer {
   margin-bottom: 0px;
-  position: sticky;
   background-color: rgba(29, 29, 31, 0.959);
   height: 100px;
   width: 100%;
-  position: fixed;
   bottom: 0;
 }
 
 .footer .footer-content {
+  padding: 30px;
+  position: absolute;
+  bottom: 20px;
 }
 
-/* .footer .footer-content .footer-section {
-} */
+.footer-section {
+  padding: 15px;
+  width: 32%;
+  height: 150px;
+  background: rgb(79, 46, 224);
+  display: table-cell;
+  border-right: solid #a175c4 1px;
+}
+.footer-section:last-child {
+  border: 0px;
+  background: rgb(100, 76, 221);
+}
+.footer-section:nth-child(2) {
+  background: rgb(161, 153, 199);
+}
 
 .footer .footer-bottom {
   background: rgb(102, 100, 100);
@@ -347,7 +361,8 @@ marquee {
   text-align: center;
   position: fixed;
   bottom: 0;
-  height: 30px;
+  height: 35px;
+  margin-bottom: 2px;
 }
 
 /* unvisited link */
@@ -368,4 +383,8 @@ a:hover {
 /* selected link */
 a:active {
   color: lightblue;
+}
+
+ul {
+  list-style-type: none;
 }
