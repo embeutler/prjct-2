@@ -82,26 +82,45 @@
     <h2 class="description">Search for some of the worst food in Sacramento</h2>
 
     <!------- Search Box ----->
-    <div class="search-box">
+    <!-- <div class="search-box">
         <div class="search">
             <form>
                 <input   type="text"     class="searchTerm"  placeholder="What are you looking for?">
                 <button type="submit" class="searchButton"> <i class="fa fa-search"></i> </button>
             </form>
         </div>
-    </div>
+    </div> -->
 
     <br>
     
+    <!-- Search Box Alternative -->
+    <div id="cover">
+            <form method="get" action="">
+              <div class="tb">
+                <div class="td"><input type="text" placeholder="Search" required></div>
+                <div class="td" id="s-cover">
+<!-------- THIS BUTTON SHOULD BE CONNECTED TO THE DATABASE --------->
+                  <button type="submit">
+                    <div id="s-circle"></div>
+                    <span></span>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+
     <!------ Search Result  ------>
-    <div class="results-container">
-        <div class="listResults">
-          {{restraunts listResults}}
+    <div>
+        <div class="results-container">
+            <div class="listResults">
+            {{restraunts listResults}}
+            </div>
         </div>
     </div>
 
  <!--------------------- Start Footer ------------------------------->
-    <div class="footer ">
+    <div class="footer">
 
         <!------------- Three column Info Footer -------------->
       <div class="footer-content">
