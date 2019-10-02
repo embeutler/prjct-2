@@ -287,7 +287,6 @@ marquee {
   padding: 30px;
   position: absolute;
   bottom: 20px;
-  align-items: center;
 }
 
 .footer-section {
@@ -381,7 +380,7 @@ iframe {
   text-align: center;
   position: fixed;
   bottom: 0;
-  height: 50px;
+  height: 55px;
   margin-bottom: 2px;
 }
 
