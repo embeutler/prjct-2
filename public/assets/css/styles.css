@@ -41,9 +41,9 @@ MAIN header "PLEY" animation
 ***/
 
 .loading {
-  --flip-1: flip-1 1.5s ease-in-out infinite;
-  --flip-2: flip-2 1.5s ease-in-out infinite;
-  --flip-3: flip-3 1.5s ease-in-out infinite;
+  --flip-1: flip-1 4s ease-in-out infinite;
+  --flip-2: flip-2 4s ease-in-out infinite;
+  --flip-3: flip-3 4s ease-in-out infinite;
   text-align: center;
   min-width: 575px;
   position: sticky;
@@ -63,7 +63,6 @@ h1 {
 
 h1:nth-child(1) {
   animation: var(--flip-2) 0.375s;
-  color: rgb(223, 223, 223);
   color: red;
 }
 
@@ -294,16 +293,41 @@ marquee {
   padding: 15px;
   width: 32%;
   height: 150px;
-  background: rgb(79, 46, 224);
+  /* background: rgb(79, 46, 224); */
+  background: transparent;
   display: table-cell;
-  border-right: solid #a175c4 1px;
+  border-right: solid #7ccfe4 1px;
 }
 .footer-section:last-child {
   border: 0px;
-  background: rgb(100, 76, 221);
+  /* background: rgb(100, 76, 221); */
 }
 .footer-section:nth-child(2) {
-  background: rgb(161, 153, 199);
+  /* background: rgb(161, 153, 199); */
+}
+.footer-section:nth-child(1) {
+  /* background: rgb(161, 153, 199); */
+  width: 22%;
+}
+
+.footer-col1 {
+  font-family: "Concert One", cursive;
+  font-size: 30px;
+  color: white;
+  margin: 0px;
+  margin-left: 15px;
+}
+
+iframe {
+  margin-bottom: -100px;
+}
+
+#popup {
+  font-family: "Concert One", cursive;
+  font-size: 15px;
+  color: white;
+  margin-left: 15px;
+  padding: 20px;
 }
 
 .footer .footer-bottom {
@@ -343,4 +367,8 @@ a:active {
 
 ul {
   list-style-type: none;
+}
+
+.about {
+  font-family: "Arial Narrow", sans-serif;
 }
