@@ -273,7 +273,7 @@ marquee {
   color: white;
 }
 
-/*** footer**/
+/*** --- footer --- **/
 
 .footer {
   margin-bottom: 0px;
@@ -287,29 +287,29 @@ marquee {
   padding: 30px;
   position: absolute;
   bottom: 20px;
+  align-items: center;
 }
 
 .footer-section {
   padding: 15px;
-  width: 32%;
-  height: 150px;
+  height: 300px;
   /* background: rgb(79, 46, 224); */
   background: transparent;
   display: table-cell;
-  border-right: solid #7ccfe4 1px;
 }
 .footer-section:last-child {
-  border: 0px;
   /* background: rgb(100, 76, 221); */
 }
 .footer-section:nth-child(2) {
   /* background: rgb(161, 153, 199); */
+  border-right: solid #7ccfe4 0.1px;
 }
 .footer-section:nth-child(1) {
   /* background: rgb(161, 153, 199); */
-  width: 22%;
+  border-right: solid #7ccfe4 0.1px;
 }
 
+/* ------- footer column 1 : PPT About This Project------ */
 .footer-col1 {
   font-family: "Concert One", cursive;
   font-size: 30px;
@@ -319,7 +319,7 @@ marquee {
 }
 
 iframe {
-  margin-bottom: -100px;
+  margin-bottom: 5px;
 }
 
 #popup {
@@ -330,6 +330,50 @@ iframe {
   padding: 20px;
 }
 
+/* ------- footer column 2 : Contact------ */
+.contact {
+  width: 30%;
+}
+
+.LinkIn {
+  font-family: "Concert One", cursive;
+  font-size: 30px;
+  color: white;
+  margin: 0px;
+  margin-left: 15px;
+}
+
+.linkin-link {
+  font-family: "Concert One", cursive;
+  font-size: 20px;
+  color: white;
+  margin-left: 15px;
+  padding: 20px;
+}
+
+/* Talk Nerdy to Us */
+.work-quote {
+  font-family: "Strong";
+  font-size: 40px;
+  margin-left: 55px;
+  padding: 20px;
+}
+
+/* <!------ Third Column ------> */
+
+.Portfolio-Page {
+  font-family: "Concert One", cursive;
+  font-size: 30px;
+  color: white;
+  margin: 0px;
+  margin-left: 15px;
+}
+
+.gitfolio {
+  /* background: 5px white; */
+}
+
+/* ----- Copyright Section ------ */
 .footer .footer-bottom {
   background: rgb(102, 100, 100);
   color: pink;
@@ -337,7 +381,7 @@ iframe {
   text-align: center;
   position: fixed;
   bottom: 0;
-  height: 35px;
+  height: 50px;
   margin-bottom: 2px;
 }
 
