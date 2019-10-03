@@ -13,8 +13,9 @@ $(document).ready(function() {
         if (search.val() === req[i].name) {
           console.log(req[i].name);
           for (var j = 0; j < req[i].Reviews.length; j++) {
-            if (req[i].Reviews[j].stars < 3)
+            if (req[i].Reviews[j].stars < 3) {
               console.log(req[i].Reviews[j].text);
+            }
           }
         }
       }
