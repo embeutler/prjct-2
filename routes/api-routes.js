@@ -1,6 +1,5 @@
 var db = require("../models");
 var sequelize = require("sequelize");
-const Op = sequelize.Op;
 
 module.exports = function(app) {
   // Get all reviews
