@@ -36,9 +36,6 @@ Object.keys(db).forEach(function(modelName) {
   }
 });
 
-db.Reviews.belongsTo(db.Businesses);
-db.Businesses.hasMany(db.Reviews);
-
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
