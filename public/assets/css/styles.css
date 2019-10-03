@@ -282,6 +282,7 @@ marquee {
   width: 100%;
   bottom: 0;
   display: block;
+  text-align: center;
 }
 
 .footer .footer-content {
@@ -299,14 +300,17 @@ marquee {
 }
 .footer-section:last-child {
   /* background: rgb(100, 76, 221); */
+  /* background-color: rgba(100, 100, 100, 0.5); */
 }
 .footer-section:nth-child(2) {
   /* background: rgb(161, 153, 199); */
-  border-right: solid #7ccfe4 0.1px;
+  /* border-right: solid #7ccfe4 0.1px; */
+  /* background-color: rgba(100, 100, 100, 0.5); */
 }
 .footer-section:nth-child(1) {
   /* background: rgb(161, 153, 199); */
-  border-right: solid #7ccfe4 0.1px;
+  /* border-right: solid #7ccfe4 0.1px; */
+  /* background-color: rgba(100, 100, 100, 0.5); */
 }
 
 /* ------- footer column 1 : PPT About This Project------ */
@@ -456,7 +460,7 @@ form {
 }
 
 input[type="text"] {
-  width: 100%;
+  width: 90%;
   height: 96px;
   font-size: 60px;
   line-height: 1;
@@ -555,7 +559,3 @@ button span:after {
 }
 
 /* <!-- // End Search Box Alternative --> */
-
-.results-container {
-  width: 100%;
-}
