@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  $(document).on("click", ".searchTerm", handleSearch);
+  //$(document).on("click", "#search", handleSearch);
 
-  function handleSearch(event) {
+  $("#search").on("click", function(event) {
     console.log(event);
-  }
+  });
 });
