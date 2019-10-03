@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Concert+One&display=swap");
-
 /*********
 Background Animation for Banner
 *************/
 
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
   background-color: black;
@@ -189,6 +187,7 @@ h5 {
 }
 
 /*** Search bar ***/
+
 /* 
 .search-box {
   position: inherit;
@@ -287,7 +286,6 @@ marquee {
 
 .footer .footer-content {
   padding: 30px;
-  position: absolute;
   bottom: 20px;
 }
 
@@ -298,15 +296,18 @@ marquee {
   background: transparent;
   display: table-cell;
 }
+
 .footer-section:last-child {
   /* background: rgb(100, 76, 221); */
   /* background-color: rgba(100, 100, 100, 0.5); */
 }
+
 .footer-section:nth-child(2) {
   /* background: rgb(161, 153, 199); */
   /* border-right: solid #7ccfe4 0.1px; */
   /* background-color: rgba(100, 100, 100, 0.5); */
 }
+
 .footer-section:nth-child(1) {
   /* background: rgb(161, 153, 199); */
   /* border-right: solid #7ccfe4 0.1px; */
@@ -314,6 +315,7 @@ marquee {
 }
 
 /* ------- footer column 1 : PPT About This Project------ */
+
 .footer-col1 {
   font-family: "Concert One", cursive;
   font-size: 30px;
@@ -335,6 +337,7 @@ iframe {
 }
 
 /* ------- footer column 2 : Contact------ */
+
 .contact {
   width: 30%;
 }
@@ -356,6 +359,7 @@ iframe {
 }
 
 /* Talk Nerdy to Us */
+
 .work-quote {
   font-family: "Strong";
   font-size: 40px;
@@ -378,6 +382,7 @@ iframe {
 }
 
 /* ----- Copyright Section ------ */
+
 .footer .footer-bottom {
   background: rgb(102, 100, 100);
   color: pink;
@@ -433,8 +438,7 @@ ul {
   vertical-align: middle;
 }
 
-input,
-button {
+input, button {
   color: #fff;
   font-family: Nunito;
   padding: 0;
@@ -511,8 +515,7 @@ button span {
   transition: 0.5s ease all;
 }
 
-button span:before,
-button span:after {
+button span:before, button span:after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -551,8 +554,8 @@ button span:after {
   bottom: -11px;
   transform: rotateZ(-52deg);
 }
-#s-cover:hover button span:before,
-#s-cover:hover button span:after {
+
+#s-cover:hover button span:before, #s-cover:hover button span:after {
   right: -6px;
   width: 40px;
   background-color: #fff;
