@@ -12,9 +12,11 @@ $(document).ready(function() {
       for (var i = 0; i < req.length; i++) {
         if (search.val() === req[i].name) {
           name = req[i].name;
+          console.log("here");
           for (var j = 0; j < req[i].Reviews.length; j++) {
             if (req[i].Reviews[j].stars < 3) {
               review = req[i].Reviews[j].text;
+              console.log("there");
             }
           }
         }
