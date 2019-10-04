@@ -69,16 +69,6 @@
 <!----- Short Description ----->
 <h2 class="description">Search for some of the worst food in Sacramento</h2>
 
-<!------- Search Box ----->
-<!-- <div class="search-box">
-    <div class="search">
-        <form>
-            <input   type="text"     class="searchTerm"  placeholder="What are you looking for?">
-            <button type="submit" class="searchButton"> <i class="fa fa-search"></i> </button>
-        </form>
-    </div>
-</div> -->
-
 <br>
 
 <!-- Search Box Alternative -->
@@ -90,25 +80,21 @@
     </div>
     <div class="td" id="s-cover">
       <!-------- THIS BUTTON SHOULD BE CONNECTED TO THE DATABASE --------->
-      <button id="search">
+      <button onclick="useIt()" id="search">
         <div id="s-circle"></div>
         <span></span>
       </button>
     </div>
-  </div>
-  <!-- </form> -->
-</div>
-
-
-<!------ Search Result  ------>
-<div>
-  <div class="results-container">
-    <div class="listResults">
-      {{this.name}}
-    </div>
+    <!-- </form> -->
   </div>
 </div>
 
+<div id="container"></div>
+
+<template>
+  <div>Name: <span>{{example}}</span></div>
+  <div>Review: <span>{{example}}</span></div>
+</template>
 <!--------------------- Start Footer ------------------------------->
 <div class="footer">
 
@@ -189,3 +175,16 @@
   </div>
   <!-- // End Copyrights -->
 </div>
+
+<script>
+  function useIt() {
+    var content = document.querySelector("template").content;
+    // Update something in the template DOM.
+    document
+      .querySelector("#container")
+      .appendChild(document.importNode(content, true));
+    var name = document.getElementById('search-input').value;
+    console.log(name)
+  }
+
+</script>
