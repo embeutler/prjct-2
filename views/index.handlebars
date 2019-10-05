@@ -1,4 +1,6 @@
-<!----- Banner and Title ----->
+{{> header/header-block}}
+
+{{!-- {-- <!----- Banner and Title ----->
 <div class="master-head">
   <div class="hero-bkg-animated">
     <div class="loading">
@@ -12,9 +14,9 @@
     </div>
   </div>
 </div>
-<br>
+<br> --}}
 
-<!------------ QUOTE -------->
+{{!-- <!------------ QUOTE --------> --}}
 <marquee>
   &#129326
   “One cannot think well, love well, sleep well, if one has not dined well.”
@@ -66,26 +68,26 @@
 </marquee>
 <br>
 
-<!----- Short Description ----->
+{{!-- <!----- Short Description -----> --}}
 <h2 class="description">Search for some of the worst food in Sacramento</h2>
 
 <br>
 
-<!-- Search Box Alternative -->
+{{!-- <!-- Search Box Alternative --> --}}
 <div id="cover">
-  <!-- <form method="get" action=""> -->
+  {{!-- <!-- <form method="get" action=""> --> --}}
   <div class="tb">
     <div class="td">
       <input type="text" id="search-input" placeholder="Search" required>
     </div>
     <div class="td" id="s-cover">
-      <!-------- THIS BUTTON SHOULD BE CONNECTED TO THE DATABASE --------->
+      {{!-- <!-------- THIS BUTTON SHOULD BE CONNECTED TO THE DATABASE ---------> --}}
       <button onclick="useIt()" id="search">
         <div id="s-circle"></div>
         <span></span>
       </button>
     </div>
-    <!-- </form> -->
+    {{!-- <!-- </form> --> --}}
   </div>
 </div>
 
@@ -95,7 +97,11 @@
   <div>Name: <span>{{example}}</span></div>
   <div>Review: <span>{{example}}</span></div>
 </template>
-<!--------------------- Start Footer ------------------------------->
+
+
+{{> footer/footer-block}}
+
+{{!-- <!--------------------- Start Footer ------------------------------->
 <div class="footer">
 
   <!------------- Three column Info Footer -------------->
@@ -174,7 +180,7 @@
     Reference to <a href="yelp.com" target="_blank">yelp.com</a>
   </div>
   <!-- // End Copyrights -->
-</div>
+</div> --}}
 
 <script>
   function useIt() {
