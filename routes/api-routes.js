@@ -20,15 +20,13 @@ module.exports = function(app) {
     });
   });
 
-  app.get("/api/all", function(req, res) {
+  app.post("/api/all", function(req, res) {
     console.log(req.body.name);
     db.Businesses.findAll({
       where: { name: req.body.name }
     }).then(function(result) {
       console.log(result);
-      res.render("index", {
-        businesses: result
-      });
+      res.json(result);
     });
   });
 
