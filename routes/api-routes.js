@@ -1,6 +1,5 @@
 var db = require("../models");
 var sequelize = require("sequelize");
-
 module.exports = function(app) {
   // Get all reviews
   app.get("/api/reviews", function(req, res) {
@@ -10,16 +9,30 @@ module.exports = function(app) {
       res.json(dbReviews);
     });
   });
-
+  app.post("/api/all", function(req, res) {
+    console.log(req.body.name);
+    db.Businesses.findAll({
+      where: { name: req.body.name }
+    })
+      .then(function(result) {
+        // console.log(result);
+        res.render("index", {
+          businesses: result
+        });
+      })
+      .catch(function(err) {
+        console.log(err);
+      });
+  });
   app.get("/api/all", function(req, res) {
     db.Businesses.findAll({
-      include: [{ model: db.Reviews }],
-      order: sequelize.col("stars")
-    }).then(function(dbExamples) {
-      res.json(dbExamples);
+      where: { name: req.body.name }
+    }).then(function(result) {
+      res.render("index", {
+        businesses: result
+      });
     });
   });
-
   // Gets all businesses
   app.get("/api/businesses", function(req, res) {
     db.Businesses.findAll({
@@ -28,7 +41,6 @@ module.exports = function(app) {
       res.json(dbBusinesses);
     });
   });
-
   // Gets an reviews by id
   app.get("/api/reviews/:id", function(req, res) {
     db.Reviews.findAll({
@@ -37,7 +49,6 @@ module.exports = function(app) {
       res.json(dbReviews);
     });
   });
-
   // Delete an business by id
   app.get("/api/businesses/:id", function(req, res) {
     db.business
