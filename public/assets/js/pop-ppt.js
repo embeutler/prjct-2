@@ -1,3 +1,3 @@
-$(document).ready(function() {
-  $(".image-link").magnificPopup({ type: "image" });
-});
+// $(document).ready(function() {
+//   $(".image-link").magnificPopup({ type: "image" });
+// });
