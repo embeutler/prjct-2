@@ -16,7 +16,19 @@ module.exports = function(app) {
       include: [{ model: db.Reviews }],
       order: sequelize.col("stars")
     }).then(function(dbExamples) {
-      res.json(dbExamples);
+      res.render(dbExamples);
+    });
+  });
+
+  app.get("/api/all", function(req, res) {
+    console.log(req.body.name);
+    db.Businesses.findAll({
+      where: { name: req.body.name }
+    }).then(function(result) {
+      console.log(result);
+      res.render("index", {
+        businesses: result
+      });
     });
   });
 
