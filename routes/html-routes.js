@@ -1,4 +1,6 @@
 var path = require("path");
+var db = require("../models");
+var sequelize = require("sequelize");
 
 module.exports = function(app) {
   // index route loads view.html
