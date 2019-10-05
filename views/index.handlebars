@@ -1,21 +1,5 @@
 {{> header/header-block}}
 
-{{!-- {-- <!----- Banner and Title ----->
-<div class="master-head">
-  <div class="hero-bkg-animated">
-    <div class="loading">
-      <header>
-        <h1>*</h1>
-        <h1>P</h1>
-        <h1>L</h1>
-        <h1>E</h1>
-        <h1>Y</h1>
-      </header>
-    </div>
-  </div>
-</div>
-<br> --}}
-
 {{!-- <!------------ QUOTE --------> --}}
 <marquee>
   &#129326
@@ -78,11 +62,11 @@
   {{!-- <!-- <form method="get" action=""> --> --}}
   <div class="tb">
     <div class="td">
-      <input type="text" id="search-input" placeholder="Search" required>
+      <input type="text" id="search-input" placeholder="Search" name="name" required>
     </div>
     <div class="td" id="s-cover">
       {{!-- <!-------- THIS BUTTON SHOULD BE CONNECTED TO THE DATABASE ---------> --}}
-      <button onclick="useIt()" id="search">
+      <button id="search">
         <div id="s-circle"></div>
         <span></span>
       </button>
@@ -92,114 +76,9 @@
 </div>
 
 
-<div class="content-background">
+{{#each businesses}}
+{{> businesses/business-results}}
+{{/each}}
 
-  <div>
-    <div id="container"></div>
 
-    <template>
-      <div class="container-tag">Name:
-        <span class="container-name">{{example}}</span>
-      </div>
-      <div class="container-tag">Review:
-        <span class="review-content">{{example}}</span>
-      </div>
-    </template>
-
-  </div>
-</div>
 {{> footer/footer-block}}
-
-{{!-- <!--------------------- Start Footer ------------------------------->
-<div class="footer">
-
-  <!------------- Three column Info Footer -------------->
-  <div class="footer-content">
-
-    <!------- First Column ------>
-    <div class="footer-section about">
-
-      <p class="footer-col1">ABOUT THIS PROJECT :</p>
-      <a id="popup" class="image-link"
-        href="https://onedrive.live.com/embed?cid=CD3E4BBDB4A228F8&resid=CD3E4BBDB4A228F8%21114&authkey=ACtLWcEUlf4ENQY&em=2">Open
-        in PopUp</a>
-      <div class="footer-section about">
-        <iframe
-          src="https://onedrive.live.com/embed?cid=CD3E4BBDB4A228F8&resid=CD3E4BBDB4A228F8%21114&authkey=ACtLWcEUlf4ENQY&em=2"
-          width="402" height="327" frameborder="0" scrolling="no"></iframe>
-      </div>
-    </div>
-    <!------ Second Column ---->
-    <div class="footer-section contact">
-      <ul class="LinkIn">
-        <img src="assets/css/LinkedIn-Logo.png" alt="LinkIn Icon" width="42" height="42">
-        Follow us on LinkIn
-        <li> <a class="linkin-link" href="https://www.linkedin.com/in/melanie-mok-82747413b/" target="_blank">Melanie
-            Mok</a></li>
-        <li> <a class="linkin-link" href="https://www.linkedin.com/in/carl-medina-47115767/" target="_blank">Carl Medina
-          </a></li>
-        <li> <a class="linkin-link" href="https://www.linkedin.com/in/billy-bright-86180016a/" target="_blank">Billy
-            Bright </a> </li>
-        <!-- Waiting on Linkin  -->
-        <li> <a class="linkin-link" href="https://www.linkedin.com/in/melanie-mok-82747413b/" target="_blank">Emily
-            Beutler</a> </li>
-        <li> <a class="linkin-link" href="https://www.linkedin.com/in/melanie-mok-82747413b/" target="_blank">Travis
-            Rodowick</a> </li>
-
-      </ul>
-      <p class="work-quote"> Talk Nerdy to Us</p>
-    </div>
-
-    <!------ Third Column ------>
-    <div class="footer-section contact-form">
-
-      <ul class="Portfolio-Page">
-        <img class="gitfolio" src="assets/css/GreyOctocat.png" alt="LinkIn Icon" width="42" height="42">
-        Checkout Our Portfolio Pages
-        <li> <a class="linkin-link" href="https://carllm1.github.io/Bootstrap-Portfolio/" target="_blank">Carl Medina
-          </a></li>
-        <li> <a class="linkin-link" href="https://www.linkedin.com/in/melanie-mok-82747413b/" target="_blank">Emily
-            Beutler</a> </li>
-        <li> <a class="linkin-link" href="https://www.linkedin.com/in/melanie-mok-82747413b/" target="_blank">Travis
-            Rodowick</a> </li>
-        <li> <a class="linkin-link" href="https://brbright.github.io/portfolio/" target="_blank">Billy Bright </a> </li>
-        <li> <a class="linkin-link" href="https://melanie0530.github.io/Responsive-Portfolio/" target="_blank">Melanie
-            Mok</a></li>
-      </ul>
-    </div>
-  </div>
-  <!----// End Three Columns Footer ------->
-
-  <!--------------- Copyright --------------------------->
-  <div class="footer-bottom">
-    &copy; <a href="https://github.com/BRBright/Project_2" target="_blank">pley.com</a> | Designed by &nbsp&nbsp<a
-      href="https://github.com/BRBright" target="_blank">Billy Bright</a>
-    &nbsp&nbsp
-    <a href="https://github.com/travrodowick" target="_blank">Travis Rodowick</a>
-    &nbsp&nbsp
-    <a href="https://github.com/CarlLm1" target="_blank">Carl Medina</a>
-    &nbsp&nbsp
-    <a href="https://github.com/embeutler" target="_blank">Emily Beutler</a>
-    &nbsp&nbsp
-    <a href="https://github.com/melanie0530" target="_blank">Melanie Mok</a>
-    <img class="gitfolio" src="assets/css/github-logo.png" alt="LinkIn Icon" width="70" height="30">
-
-    <br>
-
-    Reference to <a href="yelp.com" target="_blank">yelp.com</a>
-  </div>
-  <!-- // End Copyrights -->
-</div> --}}
-
-<script>
-  function useIt() {
-    var content = document.querySelector("template").content;
-    // Update something in the template DOM.
-    document
-      .querySelector("#container")
-      .appendChild(document.importNode(content, true));
-    var name = document.getElementById('search-input').value;
-    console.log(name)
-  }
-
-</script>

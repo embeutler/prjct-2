@@ -1,6 +1,7 @@
 require("dotenv").config();
 var express = require("express");
 var exphbs = require("express-handlebars");
+const bodyparser = require("body-parser");
 
 var db = require("./models");
 
