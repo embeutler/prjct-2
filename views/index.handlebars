@@ -91,14 +91,23 @@
   </div>
 </div>
 
-<div id="container"></div>
 
-<template>
-  <div>Name: <span>{{example}}</span></div>
-  <div>Review: <span>{{example}}</span></div>
-</template>
+<div class="content-background">
 
+  <div>
+    <div id="container"></div>
 
+    <template>
+      <div class="container-tag">Name:
+        <span class="container-name">{{example}}</span>
+      </div>
+      <div class="container-tag">Review:
+        <span class="review-content">{{example}}</span>
+      </div>
+    </template>
+
+  </div>
+</div>
 {{> footer/footer-block}}
 
 {{!-- <!--------------------- Start Footer ------------------------------->
