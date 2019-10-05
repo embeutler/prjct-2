@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $("#search").on("click", function() {
-    event.preventDefault();
+    //event.preventDefault();
     $.post("api/all", {
       type: "POST",
       name: $("#search-input")
