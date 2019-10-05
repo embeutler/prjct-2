@@ -1,5 +1,6 @@
 var db = require("../models");
 var sequelize = require("sequelize");
+var router = express.Router();
 
 module.exports = function(app) {
   // Get all reviews
@@ -29,24 +30,37 @@ module.exports = function(app) {
     });
   });
 
-  //get taco
-  var express = require("express");
-
-  var router = express.Router();
-
-  // Import the model (cat.js) to use its database functions.
-  var businesses = require("../models");
+  var biz = require("../models/");
 
   // Create all our routes and set up logic within those routes where required.
   router.get("/", function(req, res) {
-    businesses.all(function(data) {
+    business.all(function(data) {
       var hbsObject = {
-        businesses: data
+        business: data
       };
       console.log(hbsObject);
       res.render("index", hbsObject);
     });
   });
+
+  // //get taco
+  // var express = require("express");
+
+  // var router = express.Router();
+
+  // // Import the model (cat.js) to use its database functions.
+  // var businesses = require("../models");
+
+  // // Create all our routes and set up logic within those routes where required.
+  // router.get("/", function(req, res) {
+  //   businesses.all(function(data) {
+  //     var hbsObject = {
+  //       businesses: data
+  //     };
+  //     console.log(hbsObject);
+  //     res.render("index", hbsObject);
+  //   });
+  // });
 
   // Gets an reviews by id
   app.get("/api/reviews/:id", function(req, res) {
