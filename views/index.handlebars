@@ -58,29 +58,28 @@
 <br>
 
 {{!-- <!-- Search Box Alternative --> --}}
+
 <div id="cover">
-  {{!-- <!-- <form method="get" action=""> --> --}}
-  <div class="tb">
-    <div class="td">
-      <input type="text" id="search-input" placeholder="Search" name="name" required>
-    </div>
-    <div class="td" id="s-cover">
-      {{!-- <!-------- THIS BUTTON SHOULD BE CONNECTED TO THE DATABASE ---------> --}}
-      <a href="http://localhost:3000/cheat.html">
+  <form method="post" action="search">
+    <div class="tb">
+      <div class="td">
+        <input type="text" id="search-input" placeholder="Search" name="name" required>
+      </div>
+      <div class="td" id="s-cover">
+        {{!-- <!-------- THIS BUTTON SHOULD BE CONNECTED TO THE DATABASE ---------> --}}
         <button id="search">
           <div id="s-circle"></div>
           <span></span>
         </button>
-      </a>
-    </div>
-    {{!-- <!-- </form> --> --}}
-  </div>
+      </div>
+  </form>
+</div>
 </div>
 
-
-{{#each businesses}}
-{{> businesses/business-results}}
-{{/each}}
-
+<ul>
+  {{#each business}}
+  hello world
+  {{/each}}
+</ul>
 
 {{> footer/footer-block}}
