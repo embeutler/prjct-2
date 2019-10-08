@@ -19,7 +19,21 @@ module.exports = function(app) {
       include: [{ model: db.Reviews }],
       order: sequelize.col("stars")
     }).then(function(dbExamples) {
-      res.json(dbExamples);
+      res.render(dbExamples);
+    });
+  });
+
+  app.post("/search", function(req, res) {
+    console.log(req.body.name);
+    var search = req.body.name;
+    db.Businesses.findAll({
+      where: { name: search }
+    }).then(function(result) {
+      var businessObject = {
+        business: result.business
+      };
+      console.log(result);
+      res.render("index", businessObject);
     });
   });
 
