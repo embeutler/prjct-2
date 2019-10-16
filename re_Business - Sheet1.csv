@@ -1,0 +1,639 @@
+ID,Name,Type,Stars ,City,Address
+b5OBIHUqtJNsOCZpwSpUWQ,Burger King,Burgers;Fast Food;Restaurants,1,Chandler,"1945 S Alma School Rd
+Chandler, AZ 85286"
+fOrmUQoNIhxtu_WLKx7WQg,McDonald's,Burgers;Fast Food;Restaurants,1,Mesa,"411 N Val Vista Dr
+Mesa, AZ 85213"
+YkLnMTOf8XsqbYS7_qPNsQ,McDonald's,Burgers;Fast Food;Restaurants,1,Gilbert,"1945 E Baseline Rd
+Gilbert, AZ 85233"
+pA0Z8FbnfsoRmHe1ULqHeQ,McDonald's,Burgers;Fast Food;Restaurants,1,Tempe,"1429 W Baseline Rd
+Tempe, AZ 85283"
+1TJItj9VfrCeh4TM_SKQZg,McDonald's,Burgers;Fast Food;Restaurants,1,Goodyear,"1100 N Estrella Pkwy
+Goodyear, AZ 85338"
+cCStad4wX3ADPbz5AHCn9g,KFC,Fast Food;Chicken Wings;Restaurants,1,Madison,"604 Cottage Grove Rd
+Eastmorland
+Madison, WI 53716"
+YxqUBsKvkPbc1LSiV-Y7tA,Kentucky Fried Chicken,Fast Food;Chicken Wings;Restaurants,1,Maricopa,"21566 N John Wayne Pkwy
+Maricopa, AZ 85239"
+Kq9c_9eam0vOvu7xfMnKIg,Pick Up Stixs,Fast Food;Chinese;Restaurants,1,Las Vegas,"3850 S Las Vegas Blvd
+The Strip
+Las Vegas, NV 89109"
+x-YyGmE9tIXAUdg_4Py5KA,Pizza Hut,Fast Food;Pizza;Restaurants,1,Phoenix,"5233 S Central Ave
+Phoenix, AZ 85040"
+unMqU0OrlniCOKZIoQHb0A,Kfc,Fast Food;Restaurants,1,Sun Prairie,"1070 Emerald Ter
+Sun Prairie, WI 53590"
+QB64-PgfEUzbrOL50bJ0Bw,Wendy's,Fast Food;Restaurants,1,Madison,"3910 E Washington Ave
+Westchester Gardens
+Madison, WI 53704"
+8NbZswmpIyWWHhpWqThQQQ,Sonic,Fast Food;Restaurants,1,Mesa,"1260 S Val Vista Dr
+Mesa, AZ 85204"
+aR3oAmXq7aFPH_zFF5Df0A,McDonald's,Fast Food;Restaurants,1,North Las Vegas,"3229 Losee Rd
+North Las Vegas, NV 89030"
+idvjjh3yCDu7Hupzl89iQw,Wienerschnitzel,Fast Food;Restaurants,1,Las Vegas,"4001 W Sahara Ave
+Westside
+Las Vegas, NV 89102"
+RR7nf12D8cOkNi6HQAQbBA,McDonald's,Fast Food;Restaurants,1,Las Vegas,"5811 E Charleston Blvd
+Sunrise
+Las Vegas, NV 89142"
+iOdaFYr_V6SKEKzB2fE92Q,Sonic Drive-In,American (Traditional);Fast Food;Restaurants,1.5,Glendale,"6501 W Glendale Ave
+Glendale, AZ 85301"
+8p1hx2a-GYQAhQzP5F7yDQ,Burger King,American (Traditional);Fast Food;Restaurants,1.5,Las Vegas,"10880 W Charleston Blvd
+Summerlin
+Las Vegas, NV 89135"
+xH5axHFadmc7Veutt376TA,McDonald's,Burgers;Fast Food;Restaurants,1.5,Phoenix,"545 E McDowell Rd
+Phoenix, AZ 85004"
+TRhuiVSzrjveulJaH5lgow,Burger King,Burgers;Fast Food;Restaurants,1.5,Mesa,"2024 E Southern Ave
+Mesa, AZ 85204"
+saDJPEJvnionK0PZwSF9FA,Burger King,Burgers;Fast Food;Restaurants,1.5,Gilbert,"695 S Val Vista Dr
+Gilbert, AZ 85296"
+3fWX1wBJDsDiMsFZ1iFzyA,McDonald's,Burgers;Fast Food;Restaurants,1.5,Surprise,"14553 W Grand Ave
+Surprise, AZ 85374"
+Y3jVDgLRULH52M4_fXQOug,McDonald's,Burgers;Fast Food;Restaurants,1.5,Henderson,"65 S Valle Verde Dr
+Henderson, NV 89012"
+70B09fJOw9shYxwEoFdrPg,McDonald's,Burgers;Fast Food;Restaurants,1.5,North Las Vegas,"1406 W Craig Rd
+North Las Vegas, NV 89032"
+MR3-Ll-hoUGZMA-B1MTgGQ,Wendy's,Burgers;Fast Food;Restaurants,1.5,Las Vegas,"1725 W Charleston Blvd
+Downtown
+Las Vegas, NV 89102"
+q8R86OehdNa5fQ9ssu3STg,McDonald's,Burgers;Fast Food;Restaurants,1.5,Mesa,"1460 W. Southern Ave.
+Southern and Longmore
+Mesa, AZ 85202"
+G4lspZyt7AJx2c3711MaPQ,McDonald's,Burgers;Fast Food;Restaurants,1.5,Mesa,"6748 E McKellips Rd
+Mesa, AZ 85215"
+#NAME?,McDonald's,Burgers;Fast Food;Restaurants,1.5,Chandler,"990 N Arizona Ave
+Chandler, AZ 85225"
+EcVXqM7yZZeOO6jrLR-_xA,Carl's Jr Restaurants,Burgers;Fast Food;Restaurants,1.5,Las Vegas,"6960 W Tropicana Avenue
+Spring Valley
+Las Vegas, NV 89147"
+KPffNxenVXEbKeSeC-zmfQ,McDonald's,Burgers;Fast Food;Restaurants,1.5,Phoenix,"650 E Bell Rd
+Phoenix, AZ 85022"
+6dLJtcFfD2kBbrOd42KHsQ,McDonald's,Burgers;Fast Food;Restaurants,1.5,Las Vegas,"2640 E Tropicana Ave
+Eastside
+Las Vegas, NV 89121"
+VQAEtwQaWZPlEDTkBS7G3g,McDonald's,Burgers;Fast Food;Restaurants,1.5,Las Vegas,"10590 Southern Highlands Pkwy
+Southwest
+Las Vegas, NV 89141"
+TTwSbXCOr60ozQoz48mJew,Kfc,Burgers;Fast Food;Restaurants,1.5,Las Vegas,"5940 Spring Mountain Rd
+Chinatown
+Las Vegas, NV 89146"
+TfW-f8ZtkS5XpIWe9GNZ1g,Wendy's,Burgers;Fast Food;Restaurants,1.5,Las Vegas,"4400 W Sahara Ave
+Westside
+Las Vegas, NV 89102"
+qlgAl9biUkK1wvmJ4ggDFg,McDonald's,Burgers;Fast Food;Restaurants,1.5,Phoenix,"10230 N 32nd St
+Phoenix, AZ 85028"
+-3fmY6IhikhUQXpiaLgxHA,McDonald's,Burgers;Fast Food;Restaurants,1.5,Cottage Grove,"401 W Cottage Grove Rd
+Cottage Grove, WI 53527"
+FBr0VLYwiuy-LhSPQIKsAA,Mcdonalds,Burgers;Fast Food;Restaurants,1.5,Phoenix,"711 W Indian School Rd
+Phoenix, AZ 85013"
+Y0v2Qj7Wq0jDI4rJMsdJsQ,KFC,Fast Food;Chicken Wings;Restaurants,1.5,Mesa,"2210 E Baseline Rd
+Mesa, AZ 85204"
+4jxKmU2No9hGWCZuYPjeLQ,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,1.5,Phoenix,"1860 N 75th Ave
+Phoenix, AZ 85035"
+caSgnXFeNCMpBR_Djr6xPA,Little Caesars Pizza,Fast Food;Pizza;Restaurants,1.5,Scottsdale,"7919 E Thomas Road
+Scottsdale, AZ 85251"
+XWDk-pLSbVE2Vvv9Z-zusQ,Burger King,Fast Food;Restaurants,1.5,Madison,"2655 E Washington Ave
+Starkweather - Yahar
+Madison, WI 53704"
+Snu39WyiChz0NwFWRMyUvQ,McDonald's,Fast Food;Restaurants,1.5,Phoenix,"2447 E Bell Road
+Phoenix, AZ 85032"
+WP8RUkeVXA4H34vlyDjI5A,McDonald's,Fast Food;Restaurants,1.5,Casa Grande,"1741 E Florence Boulevard
+Casa Grande, AZ 85222"
+hisR9LKBN9sgcMxclH0e7g,McDonald's,Fast Food;Restaurants,1.5,Fountain Hills,"16936 E Shea Blvd
+Fountain Hills, AZ 85268"
+rjJ2JE5UNPE5JQhPmo1vHw,Jack In the Box,Fast Food;Restaurants,1.5,Peoria,"8236 W Deer Valley Rd
+Peoria, AZ 85382"
+-8vrk9UzM2oIey95PZOHuA,KFC,Fast Food;Restaurants,1.5,Peoria,"9251 W Union Hills Dr
+Peoria, AZ 85382"
+4jxe81SmrVLp_XDUIpXYMg,Kfc,Fast Food;Restaurants,1.5,Las Vegas,"4420 W Sahara Ave
+Westside
+Las Vegas, NV 89102"
+vhjdXf1dpYpV_unDVMFuEg,McDonald's,Fast Food;Restaurants,1.5,Las Vegas,"3500 E Bonanza Rd
+Las Vegas, NV 89110"
+bbi230ds25DLJ093eaSryQ,Jack in The Box,Fast Food;Restaurants,1.5,Phoenix,"132 W McDowell Rd
+Phoenix, AZ 85003"
+dbMKVb_0pwptu3tdgFrWjQ,KFC,Fast Food;Restaurants,1.5,Phoenix,"7634 W Indian School Rd
+Phoenix, AZ 85033"
+vKSyuGH08YJuJYbP3o_PXw,Kfc,Fast Food;Restaurants,1.5,Phoenix,"3550 W Thunderbird Rd
+Phoenix, AZ 85053"
+c51leTTj2gxo0PdypLoQWA,KFC,Fast Food;Restaurants,1.5,Mesa,"5249 E Brown Rd
+Mesa, AZ 85205"
+wxvOv5ERgY2SPp1OyIdLEQ,McDonald's,Fast Food;Restaurants,1.5,Chandler,"1090 E Pecos Rd
+Chandler, AZ 85225"
+Gy6hVorUNFCqNr-eYh5ZVA,Arby's,Fast Food;Restaurants,1.5,Scottsdale,"11054 N Frank Lloyd Wright Blvd
+Scottsdale, AZ 85259"
+kbRp8hTFtIhE5kblOQLjaw,KFC,Fast Food;Restaurants,1.5,Sun City,"10661 Grand Ave
+Sun City, AZ 85351"
+GoEHXcq_nY4jZOx3Ay5gxw,Sonic Drive-In,American (Traditional);Fast Food;Restaurants,2,Mesa,"2935 S Dobson Rd
+Mesa, AZ 85202"
+zVXcQcJS2Aq9qtyJUCWGrg,Sonic Drive-In,American (Traditional);Fast Food;Restaurants,2,Mesa,"3033 E McKellips Rd
+Mesa, AZ 85213"
+qdCbbg7FyD6mzf0L_g64uA,Church's Chicken,Burgers;Fast Food;Chicken Wings;Restaurants,2,Las Vegas,"7925 S Rainbow Blvd
+Southwest
+Las Vegas, NV 89113"
+DwU7wQtSs3eftKs3Q-EEjw,Wendy's,Burgers;Fast Food;Hot Dogs;Restaurants,2,Mesa,"1205 N Country Club Dr
+Mesa, AZ 85201"
+beSNHSvR9kjE_5vXJ_tlfw,Sonic Drive-In,Burgers;Fast Food;Restaurants,2,Phoenix,"734 E Greenway Pkwy
+Phoenix, AZ 85022"
+5q2G7FK3J_Eml_mcldO7Lg,McDonalds,Burgers;Fast Food;Restaurants,2,Gold Canyon,"7138 E US Hwy 60
+Gold Canyon, AZ 85218"
+iJDzwfZ7qwRMQq4YIm6ERQ,Burger King,Burgers;Fast Food;Restaurants,2,Fountain Hills,"13725 N Fountain Hills Blvd
+Fountain Hills, AZ 85268"
+4XVECNP7u2WBr2us6yTS1w,McDonald's,Burgers;Fast Food;Restaurants,2,Tempe,"5144 S Rural Rd
+Tempe, AZ 85282"
+tfxveeZkRB1N5o23jLrSxg,Burger King,Burgers;Fast Food;Restaurants,2,Tempe,"1220 W Elliot Rd
+Tempe, AZ 85284"
+XpkaEp0UhtNMpKtEGfsV7Q,McDonald's,Burgers;Fast Food;Restaurants,2,Glendale,"20227 N 67th Ave
+Glendale, AZ 85308"
+k9jVAnCxDUfg3f9CN9boRw,McDonald's,Burgers;Fast Food;Restaurants,2,Litchfield Park,"13018 W Indian School Rd
+Litchfield Park, AZ 85340"
+Kbnud85y88SIzCVGPm990Q,Wendy's,Burgers;Fast Food;Restaurants,2,Henderson,"1131 W Sunset Rd
+Henderson, NV 89014"
+pLkCwBknZUkJqIdlPswyuQ,McDonald's,Burgers;Fast Food;Restaurants,2,Henderson,"540 Marks St
+Henderson, NV 89014"
+YHGpemLe7cbnPSubG-cRRg,Burger King,Burgers;Fast Food;Restaurants,2,Phoenix,"3549 W Bell Rd
+Phoenix, AZ 85053"
+_D3KUba-5fHTbucTBAnigw,Wendy's,Burgers;Fast Food;Restaurants,2,Gilbert,"929 N Arizona Ave
+Gilbert, AZ 85233"
+K9lqz1JiwNE6cctR6qsJuA,McDonald's,Burgers;Fast Food;Restaurants,2,Tempe,"1785 E University Dr
+Tempe, AZ 85281"
+3_-UavvGHSl3yzyX3KGg0Q,Burger King,Burgers;Fast Food;Restaurants,2,Tempe,"6402 S Rural Rd
+Tempe, AZ 85283"
+4UW9-KiLGAQIlhR0QCJ2Gw,Wendy's,Burgers;Fast Food;Restaurants,2,Las Vegas,"301 S Decatur Blvd
+Westside
+Las Vegas, NV 89107"
+VAEUkY_a_p94bT3Gnf4FDg,Wendy's,Burgers;Fast Food;Restaurants,2,Las Vegas,"2601 S Eastern Ave
+Eastside
+Las Vegas, NV 89169"
+OS3VOCuv0SkuWyjsziwj1Q,McDonald's,Burgers;Fast Food;Restaurants,2,Las Vegas,"8425 Centennial Pkwy
+Centennial
+Las Vegas, NV 89149"
+dYf5eX8oK5ughIeghqifRQ,McDonald's,Burgers;Fast Food;Restaurants,2,Tempe,"1205 S Rural Rd
+Tempe, AZ 85280"
+Su8UxQI3ggk1-IXGZliZ5g,McDonald's,Burgers;Fast Food;Restaurants,2,Phoenix,"6005 S Central Ave
+Phoenix, AZ 85040"
+HXIwTk1zKEU9mvjkrMPLoQ,Carl's Jr.,Burgers;Fast Food;Restaurants,2,Glendale,"5775 W Northern Ave
+Glendale, AZ 85301"
+ikcyah81MTF4ZzOivmPitw,Sonic Drive-In,Burgers;Fast Food;Restaurants,2,Gilbert,"4075 S Higley Rd
+Gilbert, AZ 85297"
+WidRcJJQT3gb39bDwyRiLg,Wendy's,Burgers;Fast Food;Restaurants,2,Scottsdale,"4915 N Pima Rd
+Scottsdale, AZ 85251"
+uEoOaDZIl9SEBU-ioPN1bw,Wendy's,Burgers;Fast Food;Restaurants,2,Tempe,"1110 E Baseline Rd
+Tempe, AZ 85283"
+Qcg-Ho7I6niCGNlfEasZNg,Wendy's,Burgers;Fast Food;Restaurants,2,Phoenix,"7000 E Mayo Blvd
+Phoenix, AZ 85054"
+Lpo8AT_qSN_wf2gIrssRUA,Burger King,Burgers;Fast Food;Restaurants,2,Chandler,"2972 N Alma School Rd
+Chandler, AZ 85224"
+5lfBfk8OSiqUkxfufYTahA,McDonald's,Burgers;Fast Food;Restaurants,2,Las Vegas,"2020 N Rainbow Blvd
+Las Vegas, NV 89108"
+bRSeMsFesSkjzSVIGCKIDg,Burger King,Burgers;Fast Food;Restaurants,2,Las Vegas,"3555 S Maryland Pkwy
+Eastside
+Las Vegas, NV 89169"
+nQOfSLVkN6GnBCYKSc0vYg,McDonald's,Burgers;Fast Food;Restaurants,2,Phoenix,"926 E Indian School Rd
+Phoenix, AZ 85012"
+tl9XIP5trlkcuSfTQqe5jg,McDonalds,Burgers;Fast Food;Restaurants,2,Goodyear,"632 N Estrella Pkwy
+Goodyear, AZ 85338"
+pkTf45JzlYOThKKIfjQJqg,McDonald's,Burgers;Fast Food;Restaurants,2,Surprise,"13933 N Litchfield Rd
+Surprise, AZ 85379"
+LNdwp-9Isnd6xmBKUz4K_A,McDonald's,Burgers;Fast Food;Restaurants,2,Ahwatukee,"10823 S 51st St
+Ahwatukee, AZ 85044"
+4wYG8byvCI62xTWKpOSwdQ,McDonalds,Burgers;Fast Food;Restaurants,2,Las Vegas,"2650 W Sahara
+Las Vegas, NV 89102"
+xzBR6vH_zx1HamX1cFFu-g,Mcdonald's,Burgers;Fast Food;Restaurants,2,Nellis Afb,"4215 Las Vegas Blvd N
+Nellis Afb, NV 89115"
+KkwfSSO6-W48ktRN2uHlTA,McDonald's,Burgers;Fast Food;Restaurants,2,Peoria,"24710 N Lake Pleasant Pkwy
+Peoria, AZ 85383"
+hHneutBDgSpp7l9CUROyaA,McDonald's,Burgers;Fast Food;Restaurants,2,Las Vegas,"1343 Silverado Ranch Blvd
+Southeast
+Las Vegas, NV 89183"
+Lw0Y13fAlemyMHD5i_qcZg,Carls Jr,Burgers;Fast Food;Restaurants,2,Phoenix,"2342 E Thomas Rd
+Phoenix, AZ 85016"
+pPwYr1PwAnsNaZllnwQ_GA,McDonald's,Burgers;Fast Food;Restaurants,2,Las Vegas,"3451 W Tropicana Ave
+Las Vegas, NV 89103"
+H-pWqJyQ_b5RxYty6w6bdg,Wendy's,Burgers;Fast Food;Restaurants,2,New River,"3422 W Anthem Way
+New River, AZ 85086"
+5i_EHzsHLWrafCqiCFx6_g,McDonald's,Burgers;Fast Food;Restaurants,2,Tempe,"1401-1525 W Elliot Rd
+Tempe, AZ 85284"
+85GaloTNAYNl3hF87CPdkg,Kfc,Fast Food;Chicken Wings;Restaurants,2,Madison,"7501 Mineral Point Rd
+Madison, WI 53717"
+wkpJsLWPizlb8M0_418Qpg,KFC,Fast Food;Chicken Wings;Restaurants,2,Glendale,"4338 W Glendale Ave
+Glendale, AZ 85301"
+m-akXro6GMgJt627Hc1rGA,Popeyes Chicken and Biscuits,Fast Food;Chicken Wings;Restaurants,2,Las Vegas,"7110 S Durango Dr
+Spring Valley
+Las Vegas, NV 89113"
+GIG-c0WT3b5f8CdtkyQ9yw,Popeye's Chicken & Biscuits,Fast Food;Chicken Wings;Restaurants,2,Phoenix,"6540 W Thomas Rd
+Phoenix, AZ 85033"
+eODFYaXpC0M_39dzR5B2Nw,Panda Express,Fast Food;Chinese;Restaurants,2,Chandler,"1020 E Pecos Rd
+Chandler, AZ 85225"
+WqSQaa_sQW6Q5YjB6edMQA,Ricebox Take Away Food Shops,Fast Food;Chinese;Restaurants,2,Edinburgh,"28 Easter Rd
+Leith
+Edinburgh EH7 5RG"
+LtdVdYhs7MAwwTBuHhdsFQ,Panda Express,Fast Food;Chinese;Restaurants,2,Phoenix,"5229 W Indian School Rd
+Phoenix, AZ 85031"
+n4-9RkaPPW0UNZ4py8vGcg,Roberto's Taco Shop,Fast Food;Mexican;Restaurants,2,Las Vegas,"7380 S Eastern Ave Ste 118
+Southeast
+Las Vegas, NV 89123"
+fGZEYvCzqAiQEUYUMiq97g,Fresca's Mexican Grill,Fast Food;Mexican;Restaurants,2,Phoenix,"4250 W Anthem Way
+Phoenix, AZ 85086"
+vKZk6rxGVpOK13rb1OwEOA,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2,Mesa,"1256 South Country Club Dr
+Mesa, AZ 85210"
+JXu6H3o0G0SRw7AFrbc4qQ,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2,Chandler,"2030 North Alma School Rd
+Chandler, AZ 85224"
+6jdKnIjJ9n5knZoSj7qtDw,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2,Las Vegas,"2440 S Maryland Pkwy
+Downtown
+Las Vegas, NV 89104"
+CApvjaNmMJUnfzz5hVpjrA,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2,Las Vegas,"5645 S Rainbow Blvd
+Spring Valley
+Las Vegas, NV 89113"
+GGXtuLHpWWhkUpVynhFHWw,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2,Phoenix,"4035 N 7th Ave
+Phoenix, AZ 85013"
+ysUJiLxFpfMCu9NdG0Dn0Q,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2,Mesa,"4444 East Main Street
+Mesa, AZ 85205"
+y00oZaBgHET4IY0VfOw4SA,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2,Mesa,"2028 North Power Road
+Mesa, AZ 85215"
+j0cSJ3AX6bKM9MmwQOSy1A,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2,Phoenix,"725 W. Southern Avenue
+Phoenix, AZ 85041"
+kAFfVsLzPmA6Z9yFZZIy7Q,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2,Glendale,"7714 West Bell Road
+Glendale, AZ 85308"
+mt7scTEjBOKKgWamSBcf_Q,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2,Anthem,"3659 W. Anthem Way
+Anthem, AZ 85086"
+qMM8kigvEnfAkbTX7V1o_Q,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2,Cave Creek,"29844 N Cave Creek Rd
+Cave Creek, AZ 85331"
+8OAxRICR00G9xwdq3OdjCA,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2,Las Vegas,"4292 Blue Diamond Rd
+Southwest
+Las Vegas, NV 89139"
+e8SKP917u2g0MTAaoGkCnA,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2,Glendale,"5705 W Bell Rd
+Glendale, AZ 85308"
+4sE8irsM-l6Y-Npodmx9kA,Pizza Hut,Fast Food;Pizza;Restaurants,2,Phoenix,"3375 E Shea Blvd
+Ste C2
+Phoenix, AZ 85028"
+0vb_YDCtZo0Yk9zHF7rzSA,Pizza Hut,Fast Food;Pizza;Restaurants,2,Phoenix,"1839 W Indian School Rd
+Phoenix, AZ 85015"
+aZ7_6RCmDpwTVWybClDxbQ,Pizza Hut,Fast Food;Pizza;Restaurants,2,Scottsdale,"3554 N Goldwater Blvd
+Scottsdale, AZ 85251"
+iw7U-ZLP7Kp1gpNdCIf9Gg,Pizza Hut,Fast Food;Pizza;Restaurants,2,Scottsdale,"7790 E  McDowell Rd
+Ste 102
+Scottsdale, AZ 85257"
+bLbZRs9Kcy1aXsdRWYJIgg,Pizza Hut,Fast Food;Pizza;Restaurants,2,Phoenix,"2436 E Bell Rd
+Phoenix, AZ 85032"
+u0zjW7rluJgUeQTnaZnkJQ,Churchs Chicken,Fast Food;Restaurants,2,Phoenix,"3150 E Thomas Rd
+Phoenix, AZ 85016"
+lgWe8lSmcBk4Pq0kVI9-0A,Kfc,Fast Food;Restaurants,2,Phoenix,"2436 E Indian School Rd
+Phoenix, AZ 85016"
+hgy8A1Wnqyi4M-HJIFLpyQ,Dairy Queen,Fast Food;Restaurants,2,Phoenix,"3550 E Bell Rd
+Phoenix, AZ 85032"
+1-t2rcSaH4JGi1jejiHfCA,Jack in the Box,Fast Food;Restaurants,2,Phoenix,"3150 E Washington St
+Phoenix, AZ 85034"
+GVaaRfCXGBZeypTL8GNJlw,Panda Express,Fast Food;Restaurants,2,Tempe,"5000 S Arizona Mills Cir
+Ste 645
+Tempe, AZ 85282"
+NXM8ne3kCsrq3EQo42UW2A,McDonald's,Fast Food;Restaurants,2,Goodyear,"870 N Dysart Rd
+Goodyear, AZ 85338"
+LqmUxPOdZIvTBGk5F1rlLA,Wendy's,Fast Food;Restaurants,2,Surprise,"12701 W Bell Rd
+Surprise, AZ 85378"
+10kKkojqQmjYfFRtfLQLpg,Arby's Roast Beef,Fast Food;Restaurants,2,Henderson,"590 N Stephanie St
+Henderson, NV 89014"
+gtlAwb0eZ4rPWjv_42OUCA,McDonald's,Fast Food;Restaurants,2,Las Vegas,"3175 N Rancho Dr
+Northwest
+Las Vegas, NV 89130"
+cc2GmqotftMW6B4K1PhQ-w,KFC,Fast Food;Restaurants,2,Las Vegas,"4434 N Rancho Dr
+Northwest
+Las Vegas, NV 89130"
+VGfxLCiUYKjE-LreN6r50A,McDonald's,Fast Food;Restaurants,2,Las Vegas,"6360 W Charleston Blvd
+Westside
+Las Vegas, NV 89146"
+tJvUgjY7dJhCunOC10tKpg,McDonald's,Fast Food;Restaurants,2,Las Vegas,"6915 Blue Diamond Rd
+Southwest
+Las Vegas, NV 89178"
+FqEsXFhkFKCfMiz_QqUKTA,Kfc,Fast Food;Restaurants,2,Phoenix,"2902 N 7th Ave
+Phoenix, AZ 85013"
+nKrUueeLiIAeMH8nGhdh3A,McDonald's,Fast Food;Restaurants,2,Phoenix,"3207 W Indian School Rd
+Phoenix, AZ 85017"
+5oe5ciunMsjPKLAj0pl_Lg,Jack in the Box,Fast Food;Restaurants,2,Phoenix,"9920 W Indian School Rd
+Phoenix, AZ 85037"
+5Pm2O9CdS6hK3rd2ZkZhBg,Jack in the Box,Fast Food;Restaurants,2,Chandler,"955 E Riggs Rd
+Chandler, AZ 85249"
+Wzm33GwGm_xosXZF6Jx1-w,KFC,Fast Food;Restaurants,2,Scottsdale,"8050 E Indian School Rd
+Scottsdale, AZ 85251"
+8tGQZpKXJzQEu0we77w7eg,McDonald's,Fast Food;Restaurants,2,Gilbert,"4740 E Queen Creek Rd
+Gilbert, AZ 85297"
+HS6K-7G7rkqv4lN3a_pk9A,Wendy's,Fast Food;Restaurants,2,Cave Creek,"4815 E Carefree Hwy
+Ste 108
+Cave Creek, AZ 85331"
+W3z8TV-MZIYkWgfN6cyJPg,Sonic Drive-In,American (Traditional);Fast Food;Restaurants,2.5,Las Vegas,"4442 N Decatur Blvd
+Northwest
+Las Vegas, NV 89130"
+#NAME?,Sonic Drive-In,American (Traditional);Fast Food;Restaurants,2.5,Gilbert,"663 W Warner Rd
+Gilbert, AZ 85233"
+KUuJuEudXr__j_BHYXBNYQ,Sonic Drive-In,American (Traditional);Fast Food;Restaurants,2.5,Avondale,"601 N Central Ave
+Avondale, AZ 85323"
+iVtOE7_UGPsxiioGc034tQ,Sonic Drive-In,American (Traditional);Fast Food;Restaurants,2.5,Gilbert,"1654 E Williams Field Rd
+Gilbert, AZ 85296"
+cPIi_5tWZw04DmtyUBcFlg,Hooters,Bars;Restaurants;Fast Food;Sports Bars;Nightlife,2.5,Mesa,"6730 E Superstition Springs Blvd
+Mesa, AZ 85206"
+01euuGhBwvcDhl9KcPTang,El Salsita,Breakfast & Brunch;Fast Food;Mexican;Restaurants,2.5,Mesa,"35 N Country Club Dr
+Mesa, AZ 85201"
+GTVneiUeIyRL8Wa_WmEQ0g,Whataburger,Burgers;American (Traditional);Fast Food;Restaurants,2.5,Phoenix,"4610 S 48Th St
+Phoenix, AZ 85040"
+ZzYf1rngz1fDYJTgNDetDA,Whataburger,Burgers;American (Traditional);Fast Food;Restaurants,2.5,Peoria,"8922 W Bell Rd
+Peoria, AZ 85382"
+EZkoSglbAjy1_WGlUQtvsg,Fatburger,Burgers;American (Traditional);Fast Food;Restaurants,2.5,Las Vegas,"6775  W. Flamingo Road
+Las Vegas, NV 89103"
+XTc340DNx31orf7FR4DSkw,Fatburger,Burgers;American (Traditional);Fast Food;Restaurants,2.5,Las Vegas,"4199 S Fort Apache
+Spring Valley
+Las Vegas, NV 89147"
+lNE3gOMb724YPlZAA8WlXQ,Denny's,Burgers;Fast Food;Restaurants,2.5,Madison,"1798 Thierer Rd
+Mayfair Park
+Madison, WI 53704"
+dWa3oZ_uXFaCMtPOT44R4g,McDonald's,Burgers;Fast Food;Restaurants,2.5,Phoenix,"1255 E Chandler Blvd
+Phoenix, AZ 85048"
+M0a0UNYie0vmrDxY5r2yjA,Carl's Jr,Burgers;Fast Food;Restaurants,2.5,Phoenix,"4916 E Chandler Blvd
+Phoenix, AZ 85048"
+z6V7Mb0fjHo_JT3l7dCKsA,McDonald's,Burgers;Fast Food;Restaurants,2.5,Chandler,"1900 W Warner Rd
+Chandler, AZ 85224"
+VsgXwpFdqbUaYP5PCQzeoQ,Burger King,Burgers;Fast Food;Restaurants,2.5,Sun Lakes,"9668 E Riggs Rd
+Sun Lakes, AZ 85248"
+fC1SWdpNMxYX967PfL8QlA,Wendy's,Burgers;Fast Food;Restaurants,2.5,Scottsdale,"9380 N 90th St
+Scottsdale, AZ 85258"
+7mNPyQJYtIR26Y4KQa2g1Q,Wendy's,Burgers;Fast Food;Restaurants,2.5,Tempe,"515 W Warner Rd
+Tempe, AZ 85284"
+ts4LHXmZFSBR4Xczh3du6Q,Wendy's,Burgers;Fast Food;Restaurants,2.5,Henderson,"11011 S Eastern Ave
+Anthem
+Henderson, NV 89052"
+f2IKG29s2pEY1wUAIjFIlA,McDonald's,Burgers;Fast Food;Restaurants,2.5,Las Vegas,"7530 W Washington Ave
+Las Vegas, NV 89128"
+9zUwgCWOi3rDvyoeDdx5pg,Burger King,Burgers;Fast Food;Restaurants,2.5,Las Vegas,"5240 S Fort Apache Rd
+Spring Valley
+Las Vegas, NV 89148"
+kCxBx5BK0CkDmgM6K-oJ8g,Wendy's,Burgers;Fast Food;Restaurants,2.5,Fitchburg,"2858 Fish Hatchery Rd
+Leopold
+Fitchburg, WI 53713"
+35Om8exyCLHWeijbxDPB1w,McDonald's,Burgers;Fast Food;Restaurants,2.5,Phoenix,"626 W Union Hills Dr
+Phoenix, AZ 85027"
+_5FOD8UZxyJVWnnoAXq-GQ,Wendy's,Burgers;Fast Food;Restaurants,2.5,Mesa,"2019 N Power Rd
+Mesa, AZ 85215"
+W_KPYn5tKfAOY6Blz26acw,McDonald's,Burgers;Fast Food;Restaurants,2.5,Scottsdale,"8001 E Indian School Rd
+Scottsdale, AZ 85251"
+seMhyOy1AHHE1_ZLm2R_BQ,McDonald's,Burgers;Fast Food;Restaurants,2.5,Scottsdale,"2882 N Scottsdale Rd
+Scottsdale, AZ 85257"
+5eZd9ni35mZlU6n4gocZfA,Burger King,Burgers;Fast Food;Restaurants,2.5,Scottsdale,"11307 E Via Linda
+Scottsdale, AZ 85259"
+6G4UcbJ-j9v9TOAJekkvAw,McDonald's,Burgers;Fast Food;Restaurants,2.5,Glendale,"7017 N Litchfield Rd
+Glendale, AZ 85307"
+6SfP1I_hd0UbPlyQS2N-6Q,Wendy's,Burgers;Fast Food;Restaurants,2.5,Henderson,"400 S Boulder Hwy
+Henderson, NV 89015"
+Tmc8WOf1an_X6qnCGxM02Q,Wendys,Burgers;Fast Food;Restaurants,2.5,Las Vegas,"4507 W Flamingo Rd
+Las Vegas, NV 89103"
+h0Bgl8mTLQCWakpjCRH1fA,Carl's Jr Restaurants,Burgers;Fast Food;Restaurants,2.5,Las Vegas,"1180 E Desert Inn Rd
+Eastside
+Las Vegas, NV 89109"
+6gjfXqaxZgv0C2aHyl4yuQ,McDonald's,Burgers;Fast Food;Restaurants,2.5,Las Vegas,"7310 Las Vegas Blvd S
+Southeast
+Las Vegas, NV 89123"
+cXyrea2I01hwPI1rNkODfA,Jack in the Box,Burgers;Fast Food;Restaurants,2.5,Las Vegas,"4145 S Durango Dr
+Spring Valley
+Las Vegas, NV 89147"
+nS-7i9dyLr1M4pwWjNmCEQ,McDonald's,Burgers;Fast Food;Restaurants,2.5,Mesa,"2001 N Country Club Dr
+Mesa, AZ 85201"
+df4A-a0txOfoSBzlBK7q5A,McDonald's,Burgers;Fast Food;Restaurants,2.5,Las Vegas,"7851 W Charleston Blvd
+Westside
+Las Vegas, NV 89117"
+nHQ11YXvzL8awYoF-uD16A,McDonald's,Burgers;Fast Food;Restaurants,2.5,Las Vegas,"6020 W Tropicana Ave
+Las Vegas, NV 89103"
+DKt5E18rBB4eidukW26Vxg,McDonald's,Burgers;Fast Food;Restaurants,2.5,Las Vegas,"3799 Las Vegas Blvd S
+Eastside
+Las Vegas, NV 89109"
+glLo_FNtgQ7OmAR8hUrDqQ,Burger King,Burgers;Fast Food;Restaurants,2.5,Las Vegas,"5757 Wayne Newton Blvd
+McCarran International Airport D-West
+Southeast
+Las Vegas, NV 89119"
+7_w9XmNhl_l0N3jN3F-qTQ,Burger King,Burgers;Fast Food;Restaurants,2.5,Phoenix,"1970 W Baseline Rd
+Phoenix, AZ 85041"
+qYhIIWxvLQWghKQMv6m5Dg,Johnny Rockets,Burgers;Fast Food;Restaurants,2.5,Phoenix,"2510 W Happy Valley Rd
+Ste 125
+Phoenix, AZ 85027"
+R3L39gk3wtjTC9WaJKPyoA,McDonald's,Burgers;Fast Food;Restaurants,2.5,Phoenix,"223 N 7th Ave
+Phoenix, AZ 85007"
+JWql064OkrDDbRjJ-bjulw,McDonald's,Burgers;Fast Food;Restaurants,2.5,Surprise,"16547 W Bell Rd
+Surprise, AZ 85388"
+vYLR2N3cL32e0OQaBpG-ew,Carl's Jr,Burgers;Fast Food;Restaurants,2.5,Las Vegas,"2350 S Nellis Blvd
+Sunrise
+Las Vegas, NV 89104"
+Ud6MAIcHxyao99gnGWqtnA,McDonald's,Burgers;Fast Food;Restaurants,2.5,Tempe,"1325 W Broadway Rd
+Tempe, AZ 85282"
+rpgAjc1UBpupMtHb2wX0Zw,Wendy's,Burgers;Fast Food;Restaurants,2.5,Gilbert,"2867 S San Tan Village Pkwy
+Gilbert, AZ 85295"
+C3EghWth7__-NiXxvrXrqg,McDonald's,Burgers;Fast Food;Restaurants,2.5,Mesa,"857 N Dobson Rd
+Mesa, AZ 85201"
+ARpPb7Mx4VQ5lFVkhDy7fQ,McDonald's,Burgers;Fast Food;Restaurants,2.5,Las Vegas,"6595 N Decatur Blvd
+Centennial
+Las Vegas, NV 89131"
+4IAzFJ159GEaIGX1-y6Bmw,McDonald's,Burgers;Fast Food;Restaurants,2.5,Scottsdale,"9251 E Shea Blvd
+Scottsdale, AZ 85258"
+eR5-nFI0Vp7EG2pIXQM3bw,McDonald's,Burgers;Fast Food;Restaurants,2.5,Tempe,"3218 S McClintock Rd
+Tempe, AZ 85282"
+vwM1i7TB3b75Oy8QW9A0Ug,McDonald's,Burgers;Fast Food;Restaurants,2.5,Las Vegas,"3475 Las Vegas Blvd S
+The Strip
+Las Vegas, NV 89109"
+rsefsrlBgnOCvdcb4TyF8w,Carl's Jr.,Burgers;Fast Food;Restaurants,2.5,Mesa,"1015 N Dobson Rd
+Mesa, AZ 85201"
+sAUKQq5DPVcxfXVWV-Mibw,McDonald's,Burgers;Fast Food;Restaurants,2.5,Las Vegas,"Circus Circus Hotel
+2880 S Las Vegas Blvd
+The Strip
+Las Vegas, NV 89109"
+ZWuO-YghNqtcAO7Ar-MFEg,Cheesesteaks Etc.,Cheesesteaks;Fast Food;Sandwiches;Restaurants,2.5,Las Vegas,"2901 S Las Vegas Blvd
+The Strip
+Las Vegas, NV 89109"
+UGGQ7pYoliseurXY1j1wdw,Blimpie Subs & Salads,Delis;Fast Food;Restaurants,2.5,Phoenix,"3890 W Happy Valley Rd
+Ste 160
+Phoenix, AZ 85310"
+QAe9UHKsxPdXQovBpaznMQ,Schlotzskys Deli,Delis;Fast Food;Sandwiches;Restaurants,2.5,Phoenix,"2601 N Central Ave
+Phoenix, AZ 85004"
+gLYvUx5L7awAUIxK7rp6NA,Jersey Mike's Subs,Delis;Fast Food;Sandwiches;Restaurants,2.5,Phoenix,"4603 East Cactus Rd.
+Phoenix, AZ 85032"
+oZsWYLfvLBJoonvxObDWtw,Cheeseburger At the Oasis,Fast Food;American (Traditional);Restaurants,2.5,Las Vegas,"3663 Las Vegas Blvd S
+Ste 350
+Eastside
+Las Vegas, NV 89109"
+72pUqCkncwVVn65cIiX8aA,Kfc,Fast Food;Chicken Wings;Restaurants,2.5,Phoenix,"3914 E Chandler Blvd
+Phoenix, AZ 85048"
+CPTiooPIwzbM-WJc1Rsytg,KFC,Fast Food;Chicken Wings;Restaurants,2.5,Las Vegas,"71 N Nellis Blvd
+Sunrise
+Las Vegas, NV 89110"
+8xpZ4FCd69toLiW_Ejs0_Q,Church's Chicken,Fast Food;Chicken Wings;Restaurants,2.5,Phoenix,"6260 S 35th Ave
+Phoenix, AZ 85041"
+jjChNLJnXbtPlxJW3hVi5A,KFC,Fast Food;Chicken Wings;Restaurants,2.5,Las Vegas,"7017 S Durango Dr
+Spring Valley
+Las Vegas, NV 89113"
+67RicD8bcklxdnXk-zRAkw,Royal Dynasty,Fast Food;Chinese;Restaurants,2.5,Edinburgh,"197 Whitehouse Road
+Edinburgh EH4 6BU"
+6zZ559HDh56YjjrQgjCKQQ,Panda Express,Fast Food;Chinese;Restaurants,2.5,Las Vegas,"5881 W Craig Rd
+Northwest
+Las Vegas, NV 89130"
+7GFa4xiQ7PNxYrIU4Iq_RQ,Summerhall Kitchen,Fast Food;Chinese;Restaurants,2.5,Edinburgh,"9 Summerhall Pl
+Newington
+Edinburgh EH9 1QE"
+PX7kD-P_KW3rYK5UiX31MA,Wurstle Gourmet Sausages,Fast Food;Hot Dogs;Restaurants,2.5,Las Vegas,"6629 Las Vegas Blvd S
+Southeast
+Las Vegas, NV 89119"
+L19_1cG2ALVjdBQ456h26A,Yoshi's Restaurant,Fast Food;Japanese;Restaurants,2.5,Phoenix,"4050 N Central Ave
+Phoenix, AZ 85012"
+gh-hT8e-XtCExRxe6PKR4w,El Pollo Loco,Fast Food;Mexican;Restaurants,2.5,Mesa,"1036 S Country Club Dr
+Mesa, AZ 85210"
+owmcrAOmaJeB8O6UQlhgNw,Del Taco,Fast Food;Mexican;Restaurants,2.5,Glendale,"19880 N 59th Ave
+Glendale, AZ 85308"
+ai1-59g86PVlghjrlX067w,Roberto's Taco Shop,Fast Food;Mexican;Restaurants,2.5,Henderson,"4604 E Sunset Rd
+Henderson, NV 89014"
+I5vURIFijxnW2sdaDl7bpw,Tacos El Nopal,Fast Food;Mexican;Restaurants,2.5,Las Vegas,"4200 W Russell Rd
+Las Vegas, NV 89118"
+JxYTEIQqDEXgjHXtfvecAA,Taco Bell,Fast Food;Mexican;Restaurants,2.5,Madison,"5001 University Ave
+Madison, WI 53705"
+5lYd_fpm7ug7_Xzu7RloPQ,El Pollo Loco,Fast Food;Mexican;Restaurants,2.5,Glendale,"4325 W Bethany Home Rd
+Glendale, AZ 85301"
+FZ4NtNg5tJV10wVEcmvGKw,El Pollo Loco,Fast Food;Mexican;Restaurants,2.5,Las Vegas,"4005 S Decatur Blvd
+Las Vegas, NV 89103"
+gYeNI6qp7GcgUa7poIY-Ag,Roberto's Taco Shop,Fast Food;Mexican;Restaurants,2.5,Las Vegas,"6820 W Flamingo Rd
+Las Vegas, NV 89103"
+v049ov7e1SvFzNrdvOPiEg,Roberto's Taco Shop,Fast Food;Mexican;Restaurants,2.5,Las Vegas,"907 S Rainbow Blvd
+Westside
+Las Vegas, NV 89145"
+FcbmXlWUcbrYJeEDKBywEA,Viva El Taco,Fast Food;Mexican;Restaurants,2.5,Las Vegas,"Cross Rd Shopping Center
+5035 S Fort Apache Rd, Ste 106
+Spring Valley
+Las Vegas, NV 89148"
+AlksaJXH23qvwQo0Id23WA,Taco Del Mar,Fast Food;Mexican;Restaurants,2.5,Mesa,"1239 S Higley Rd
+Mesa, AZ 85206"
+KhWaq3lGLEUQjwJkMZHG_Q,El Pollo Loco,Fast Food;Mexican;Restaurants,2.5,Las Vegas,"2923 Craig Road
+Las Vegas, NV 89032"
+3Onaz69D-ygoTsWROE1u3Q,Roberto's Taco Shop,Fast Food;Mexican;Restaurants,2.5,Las Vegas,"3399 S Durango Dr
+Ste 102
+Westside
+Las Vegas, NV 89147"
+PquWeh1M1_y2D6C5kYOevA,Roberto's Taco Shop,Fast Food;Mexican;Restaurants,2.5,Las Vegas,"6355 E Russell Rd
+Las Vegas, NV 89122"
+KXvkoGg5Od9Iwk4LMBFJ4w,Federico's Mexican Food,Fast Food;Mexican;Restaurants,2.5,Phoenix,"7410 S 35th Ave Laveen
+Phoenix, AZ 85339"
+2eXDnLT-T6odgAOrx8F2gQ,Filiberto's,Fast Food;Mexican;Restaurants,2.5,Scottsdale,"7620 E Mckellips Rd
+Ste 14
+Scottsdale, AZ 85257"
+kIvIqHvvFOc6aCutFYIvNg,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Phoenix,"1501 E Bethany Home Rd
+Phoenix, AZ 85014"
+K9fIADfO_zKFPFm75A1Hxw,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Phoenix,"2450 E Indian School Rd
+Phoenix, AZ 85016"
+50dKrWfqdotEddX-mCzypA,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Phoenix,"4815 East Warner
+Phoenix, AZ 85044"
+tMkKUGwABdGWKwnLXaCYUg,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Chandler,"5800 West Chandler Blvd
+Chandler, AZ 85226"
+jMIuId3VIGhsateF-Wg2zA,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Scottsdale,"14002 N Scottsdale
+Scottsdale, AZ 85254"
+JmVyyQe1FkqYVNqtyxBjhg,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Tempe,"1415 West Elliot Road
+Tempe, AZ 85284"
+dajwInsYeaIsRLY6vd6Zzw,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Surprise,"13726 W Bell Rd
+Surprise, AZ 85374"
+gwAIppG7JZRmqnV7ywmJxQ,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Las Vegas,"6110 W Sahara Ave
+Westside
+Las Vegas, NV 89102"
+OPbWf_Dwzqda9sGVHQHtJw,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Phoenix,"1747 W Bethany Home Rd
+Phoenix, AZ 85015"
+1B5vpxnZYXKil_k5d5MpEQ,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Phoenix,"3507 W. Peoria Ave.
+Phoenix, AZ 85029"
+vuTx_fB-K_b3-WWjXiTdJg,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Scottsdale,"11072 No Frank Lloyd Wright
+Scottsdale, AZ 85259"
+iOS25g0GXznfUZ_P3WHtzg,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Mesa,"9315 E Baseline Road
+Mesa, AZ 85209"
+L7i9j66ph3Uz5i56OXIICg,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Glendale,"6645 W. Happy Valley Rd.
+Glendale, AZ 85310"
+IVL7Yft-R-nJbmdjSilfog,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Las Vegas,"535 East Windmill
+Southeast
+Las Vegas, NV 89123"
+z0rAS1Epu8VtVunP_QxbmQ,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Las Vegas,"3415 E. Russell Road
+Southeast
+Las Vegas, NV 89120"
+yG1sEzucDCMDv3g3pvUZwQ,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Tolleson,"9850 W. Lower Buckeye Rd.
+Tolleson, AZ 85353"
+KiCFtB4Y-wNLmPPjefLeJg,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Goodyear,"1740 N. Pebble Creek PA
+Goodyear, AZ 85395"
+m62bCFfQePObi1_LU_jljQ,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Buckeye,"1164 S Watson Rd
+Buckeye, AZ 85326"
+5vfSMJ3wfjbw5qbJ6VZPyQ,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Maricopa,"20980 N John Wayne Pkwy
+Maricopa, AZ 85139"
+C43Cd23SLljV-0XJhmk4YQ,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Peoria,"9831 W. Happy Valley Rd.
+Peoria, AZ 85383"
+8F7oGsqfVGiHOuSFaDiB5w,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Henderson,"199 North Pecos
+Henderson, NV 89014"
+egzyBV0dJh406LH7yQaXyA,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Las Vegas,"4880 W. Frias Avenue
+Southwest
+Las Vegas, NV 89141"
+LEHCYKIR8PMHaAeDdu4luw,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Peoria,"8301 W Peoria Ave
+Peoria, AZ 85345"
+_JOTuEUnD1pU4IDIhiti5A,Taco Bell,Fast Food;Mexican;Tex-Mex;Restaurants,2.5,Tempe,"835 W Baseline Rd
+Tempe, AZ 85283"
+jHte0SjUldZeDDZ5py0ZhA,Pizza Hut,Fast Food;Pizza;Restaurants,2.5,Phoenix,"3602 E Thomas Rd
+Phoenix, AZ 85018"
+dMlEYCET6FfV56ZIuytmiw,Pizza Hut UK,Fast Food;Pizza;Restaurants,2.5,Edinburgh,"46 North Bridge
+Old Town
+Edinburgh EH1 1QN"
+WLYQsFAczUkc845k0ec-1A,Pizza Hut,Fast Food;Pizza;Restaurants,2.5,Mesa,"2727 E McKellips Rd Ste 106
+Mesa, AZ 85213"
+R6TxOULUEMSq1-7P0w6kTA,Wendy's,Fast Food;Restaurants,2.5,Madison,"2421 S Stoughton Rd
+Madison, WI 53716"
+ajf3Myr1PKX9RaLS_Ukc8A,Jack in the Box,Fast Food;Restaurants,2.5,Phoenix,"17017 N Cave Creek Rd
+Phoenix, AZ 85032"
+A-8Q15fZHKGn3dLjazNwHw,Wendy's,Fast Food;Restaurants,2.5,Phoenix,"3800 E Sky Harbor Blvd
+Phoenix, AZ 85034"
+41SzC2WJ-RVUpVZ2NJfE-w,McDonald's,Fast Food;Restaurants,2.5,Phoenix,"3130 E Broadway Rd
+Phoenix, AZ 85040"
+k-w0uGmiWaBBL8u5Zoa3kQ,Jack in the Box,Fast Food;Restaurants,2.5,Mesa,"1232 W Baseline Rd
+Mesa, AZ 85202"
+UO_4j9fGCLflN4wtusPkQQ,McDonald's,Fast Food;Restaurants,2.5,Mesa,"1250 S Country Club Dr
+Mesa, AZ 85210"
+e6-owFrAHlsFeUfIOdP1Ow,Carl's Jr.,Fast Food;Restaurants,2.5,Mesa,"1850 S Country Club Dr
+Mesa, AZ 85210"
+dlape0CS_lVeS378Uyuoxw,Jack in the Box,Fast Food;Restaurants,2.5,Gold Canyon,"6478 E US Highway 60
+Gold Canyon, AZ 85218"
+TX44pKdAmynE8E3TaH0q3A,McDonald's,Fast Food;Restaurants,2.5,Scottsdale,"9140 E Indian Bend Rd
+Scottsdale, AZ 85250"
+PSbMvWJXA4EWMN4qvWZ7OQ,Jack in The Box,Fast Food;Restaurants,2.5,Glendale,"5104 W Thunderbird Rd
+Glendale, AZ 85306"
+hvVckRvOa814ry8q8WGwOg,Burger King,Fast Food;Restaurants,2.5,North Las Vegas,"3831 E Craig Rd
+North Las Vegas, NV 89030"
+NHBvlSKSP-AYgOgArRfIww,Arby's,Fast Food;Restaurants,2.5,Henderson,"160 N Pecos Rd
+Henderson, NV 89074"
+PSSb7S4t8j4W3RtjY-9fiQ,Jack in the Box,Fast Food;Restaurants,2.5,Las Vegas,"2301 S Decatur Blvd
+Westside
+Las Vegas, NV 89102"
+ZR87Qw2sB-ljFWClGk6X0A,Taco Bell,Fast Food;Restaurants,2.5,Las Vegas,"4717 W Charleston Blvd
+Westside
+Las Vegas, NV 89102"
+sFHj_WK6rzEeGcJxtvxrRQ,Jack in the Box,Fast Food;Restaurants,2.5,Las Vegas,"1480 W Lake Mead Blvd
+Las Vegas, NV 89106"
+7CVoKgPjQS9KknIsz3Bhcg,Burger King,Fast Food;Restaurants,2.5,Las Vegas,"2021 N Jones Blvd
+Las Vegas, NV 89108"
+L0uKIbds8dUVCuXIWE1q5g,Burger King,Fast Food;Restaurants,2.5,Las Vegas,"5536 Boulder Hwy
+Las Vegas, NV 89122"
+AqE6eArwtYYO-iazkL37yQ,Popeyes Chicken & Biscuits,Fast Food;Restaurants,2.5,Las Vegas,"6111 W Sahara Ave
+Westside
+Las Vegas, NV 89146"
+zN33MhQmlCB3yhlunL4M9Q,Jack in the Box,Fast Food;Restaurants,2.5,Las Vegas,"4970 Spring Mountain Rd
+Chinatown
+Las Vegas, NV 89146"
+urbAi2atIC9Z_dlHQNmlLg,McDonald's,Fast Food;Restaurants,2.5,Las Vegas,"5200 S Fort Apache Road
+Spring Valley
+Las Vegas, NV 89148"
+oPy0Tl_2FDz0xmzdZJWLnw,Taco Bell,Fast Food;Restaurants,2.5,Madison,"534 State St
+Capitol
+Madison, WI 53703"
+JRa9McAeE1W7XyoLNaGI3g,McDonald's,Fast Food;Restaurants,2.5,Phoenix,"2427 W Thomas Rd
+Phoenix, AZ 85015"
+7fJgNpljbi1d7wjdsPcPcw,Wendy's,Fast Food;Restaurants,2.5,Phoenix,"2640 W Thunderbird Rd
+Phoenix, AZ 85023"
+za5sHh-jpdMtQEmmV8gbnw,McDonald's,Fast Food;Restaurants,2.5,Phoenix,"1851 W Bell Rd
+Phoenix, AZ 85023"
+O8VZStQqbwvHb8aayyTIWg,Wendy's,Fast Food;Restaurants,2.5,Phoenix,"20242 N 27th Ave
+Phoenix, AZ 85027"
+37NiLnR7_gFMvBmYPsoskA,Kfc,Fast Food;Restaurants,2.5,Mesa,"6837 E Main Street
+Mesa, AZ 85207"
+Xth3AXjbQVpvsUBNSFcxtA,Jack In the Box,Fast Food;Restaurants,2.5,Chandler,"900 N Cooper Rd
+Chandler, AZ 85225"
+#NAME?,McDonald's,Fast Food;Restaurants,2.5,Scottsdale,"11425 E Via Linda
+Scottsdale, AZ 85259"
+782gZiEOJdexc2NEba7KtA,Carl's Jr,Fast Food;Restaurants,2.5,Peoria,"12110 N 75th Ave
+Peoria, AZ 85345"
