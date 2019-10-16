@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-var path = require("path");
-var db = require("../models");
-var sequelize = require("sequelize");
-=======
 // var db = require("../models");
 // var sequelize = require("sequelize");
 var express = require("express");
->>>>>>> 01460dc81b3fae96e59b579899fdb719bac47ab1
 
 var router = express.Router();
 
