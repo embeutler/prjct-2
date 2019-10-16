@@ -21,6 +21,10 @@ After navigating to the Pley at https://project---2.herokuapp.com/ in your brows
 - view
 - search
 
+### In Action
+
+![Imgur](https://i.imgur.com/PuticV8.png)
+
 ## Tech Used
 
 ---
